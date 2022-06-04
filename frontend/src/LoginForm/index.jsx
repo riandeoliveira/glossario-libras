@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './styles.css';
 
-export default class LoginForm extends Component {
-  render() {
+export default function LoginForm() {
     return (
       <div className="formulario-login">
         <form>
@@ -23,14 +22,13 @@ export default class LoginForm extends Component {
               placeholder="Insira a sua senha"
             />
           </div>
-            <button type="submit" className="btn btn-primary submit-form">
-              Entrar
-            </button>
-            <button type="submit" className="btn btn-primary">
-              Cadastrar-se
-            </button>
+          <button type="submit" className="btn btn-primary submit-form">
+            Entrar
+          </button>
+          <button type="submit" className="btn btn-primary">
+            Cadastrar-se
+          </button>
         </form>
       </div>
     );
   }
-}
