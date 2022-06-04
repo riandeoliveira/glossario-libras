@@ -8,6 +8,7 @@ import {
 import CadastroForm from './CadastroForm/index.jsx';
 import CadastroForm2 from './CadastroForm2/index.jsx';
 import LoginForm from './LoginForm/index.jsx';
+import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
