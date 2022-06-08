@@ -1,0 +1,55 @@
+/* Estilos compartilhados entre as páginas de formulário Login e Register */
+
+.card_container {
+  background-color: white;
+  padding: 48px;
+  gap: 10px;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: padding 0.5s;
+  width: 480px;
+}
+
+.title {
+  font-family: "Alatsi", sans-serif;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.button_container {
+  margin-top: 16px;
+}
+
+.account_question {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.link {
+  color: #003f86;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #156bb7;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 420px) {
+  .card_container {
+    padding: 24px;
+  }
+
+  .account_question {
+    flex-direction: column;
+  }
+}
