@@ -1,0 +1,28 @@
+.unidades {
+  text-align: center;
+  width: 70%;
+  max-width: 71%;
+}
+
+.unidade {
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 100px;
+}
+
+.texto-margem {
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.facil {
+  background: rgb(123, 236, 123);
+}
+
+.media {
+  background: rgb(255, 255, 0);
+}
+
+.dificil {
+  background: rgb(236, 123, 123);
+} 

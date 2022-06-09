@@ -1,0 +1,14 @@
+.button_container {
+  padding: 6px 12px;
+  border-radius: 5px;
+  width: 100%;
+  height: 38px;
+  background-color: #003f86;
+  color: white;
+  font-family: "Alatsi", sans-serif;
+  transition: background 0.15s;
+}
+
+.button_container:hover {
+  background-color: #156bb7;
+}

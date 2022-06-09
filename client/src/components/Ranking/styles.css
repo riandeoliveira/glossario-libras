@@ -1,0 +1,42 @@
+.ranking {
+  width: 30%;
+}
+
+.box-ranking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background-color: #003f86;
+  border-radius: 5%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: white; 
+}
+
+.ranking-titulo {
+  text-align: center;
+}
+
+.nomes-coluna {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-left: 20px;
+}
+
+.foto-usuario {
+  width: 75px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.nome-usuario {
+  padding: 30px;
+}
+
+.exp-usuario {
+  font-weight: normal;
+  color: rgb(204, 204, 204);
+}

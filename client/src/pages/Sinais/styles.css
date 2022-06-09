@@ -1,0 +1,9 @@
+.conteudo-sinais {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 75%;
+}
