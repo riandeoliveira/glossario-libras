@@ -15,7 +15,6 @@ export default function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link>
-
               <Link to={'/aprender'} className="header-links"> <FontAwesomeIcon icon={faBrain} color={'white'} /> Aprender</Link>
             </Nav.Link>
             <Nav.Link>      

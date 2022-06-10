@@ -1,10 +1,14 @@
 import CardSinais from '../../components/CardSinais';
 import Header from '../../components/Header';
+import { Helmet } from 'react-helmet';
 import './styles.css';
 
 export default function Sinais() {
   return (
     <>
+    <Helmet>
+        <title>Glossário de LIBRAS | Sinais</title>
+      </Helmet>
       <Header />
       <div className="historias-conteudo">
         <h1>Vamos aprender os sinais de LIBRAS</h1>
