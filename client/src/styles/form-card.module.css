@@ -3,12 +3,12 @@
 .card_container {
   background-color: white;
   padding: 48px;
-  gap: 10px;
+  gap: 20px;
   border-radius: 20px;
   margin: 20px;
   display: flex;
   flex-direction: column;
-  transition: padding 0.5s;
+  /* transition: all 3s; */
   width: 480px;
 }
 
@@ -30,12 +30,12 @@
 .account_question {
   display: flex;
   text-align: center;
-  justify-content: center;
   gap: 5px;
+  justify-content: center;
+
 }
 
 .link {
-  color: red;
   text-decoration: none;
 }
 
