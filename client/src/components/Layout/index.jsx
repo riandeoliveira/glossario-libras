@@ -1,5 +1,3 @@
-import styles from "./styles.module.css";
+import * as S from "./styles";
 
-export const Layout = ({ children }) => (
-  <div className={styles.layout}>{children}</div>
-);
+export const Layout = ({ children }) => <S.Layout>{children}</S.Layout>;
