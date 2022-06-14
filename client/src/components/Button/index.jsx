@@ -1,7 +1,6 @@
-import styles from "./styles.module.css";
+import * as S from "./styles";
 
+// Botão das telas de login e cadastro
 export const Button = ({ submit, children }) => (
-  <button type={submit ? "submit" : "button"} className={styles.button}>
-    {children}
-  </button>
+  <S.Button type={submit ? "submit" : "button"}>{children}</S.Button>
 );

@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import styles from "./styles.module.css";
+import * as S from "../../styles/form-card";
 import { InputBox } from "../../components/InputBox";
 import { Button } from "../../components/Button";
 import { Link } from "react-router-dom";
@@ -9,21 +9,19 @@ export const Login = () => (
     <Helmet>
       <title>Login | Glossário de LIBRAS</title>
     </Helmet>
-    <div className={styles.card}>
-      <h1 className={styles.title}>Entre na sua conta</h1>
-      <form className={styles.form}>
+    <S.Card>
+      <h1>Entre na sua conta</h1>
+      <form>
         <InputBox email name="E-mail" message="Insira seu e-mail" />
         <InputBox password name="Senha" message="Insira sua senha" />
-        <div className={styles.button}>
+        <S.Button>
           <Button submit>Entrar</Button>
-        </div>
-        <div className={styles.question}>
+        </S.Button>
+        <S.Question>
           <span>Não tem uma conta?</span>
-          <Link to="/cadastro" className={styles.link}>
-            Cadastre-se
-          </Link>
-        </div>
+          <Link to="/cadastro">Cadastre-se</Link>
+        </S.Question>
       </form>
-    </div>
+    </S.Card>
   </>
 );
