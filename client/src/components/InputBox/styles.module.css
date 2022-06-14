@@ -1,9 +1,9 @@
-.input_container {
+.input {
   display: flex;
   flex-direction: column;
 }
 
 .label {
-  font-size: 18px;
   font-family: "Alatsi", sans-serif;
+  font-size: 18px;
 }
