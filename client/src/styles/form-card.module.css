@@ -1,6 +1,6 @@
 /* Estilos compartilhados entre as páginas de formulário Login e Register */
 
-.card_container {
+.card {
   background-color: white;
   border-radius: 20px;
   display: flex;
@@ -23,11 +23,11 @@
   gap: 24px;
 }
 
-.button_container {
+.button {
   margin-top: 16px;
 }
 
-.account_question {
+.question {
   display: flex;
   gap: 5px;
   justify-content: center;
@@ -44,11 +44,11 @@
 }
 
 @media screen and (max-width: 420px) {
-  .card_container {
+  .card {
     padding: 24px;
   }
 
-  .account_question {
+  .question {
     flex-direction: column;
   }
 }
