@@ -4,8 +4,10 @@ import { StoryCard } from "../StoryCard";
 
 export const StoryCardsArea = () => (
   <S.Container>
-    {stories.map(({ title, xp_points, image_url }, i) => (
-      <StoryCard title={title} exp={xp_points} image={image_url} key={i} />
-    ))}
+    <div>
+      {stories.map(({ title, xp_points, image_url }, i) => (
+        <StoryCard title={title} exp={xp_points} image={image_url} key={i} />
+      ))}
+    </div>
   </S.Container>
 );
