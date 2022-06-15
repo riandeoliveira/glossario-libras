@@ -14,7 +14,12 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import * as S from "./styles";
-import { FaBrain, FaBook, FaHandPaper, FaGraduationCap } from "react-icons/fa";
+import {
+  FaBrain,
+  FaBook,
+  FaSignLanguage,
+  FaGraduationCap,
+} from "react-icons/fa";
 
 export const Header = () => (
   <S.Header>
@@ -34,7 +39,7 @@ export const Header = () => (
         </li>
         <li>
           <Link to="/sinais">
-            <FaHandPaper />
+            <FaSignLanguage />
             <span>Sinais</span>
           </Link>
         </li>
