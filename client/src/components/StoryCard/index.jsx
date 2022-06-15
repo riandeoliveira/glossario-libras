@@ -1,7 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import * as S from "./styles";
-import "./styles.css";
 
 export const StoryCard = ({ image, title, exp }) => (
   <S.Card>
