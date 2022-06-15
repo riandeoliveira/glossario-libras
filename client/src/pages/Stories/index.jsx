@@ -20,6 +20,9 @@ export const Stories = () => (
         <SectionTitle title="Nível 1" />
         <StoryCardsArea />
       </section>
+      <section>
+        <SectionTitle title="Nível 2" />
+      </section>
     </S.Main>
   </>
 );
