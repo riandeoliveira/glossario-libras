@@ -21,20 +21,28 @@ export const Header = () => (
     <nav>
       <ul>
         <li>
-          <FaBrain />
-          <Link to="/aprender">Aprender</Link>
+          <Link to="/aprender">
+            <FaBrain />
+            <span>Aprender</span>
+          </Link>
         </li>
         <li>
-          <FaBook />
-          <Link to="/historias">Histórias</Link>
+          <Link to="/historias">
+            <FaBook />
+            <span>Histórias</span>
+          </Link>
         </li>
         <li>
-          <FaHandPaper />
-          <Link to="/sinais">Sinais</Link>
+          <Link to="/sinais">
+            <FaHandPaper />
+            <span>Sinais</span>
+          </Link>
         </li>
         <li>
-          <FaGraduationCap />
-          <Link to="/cursos">Cursos</Link>
+          <Link to="/cursos">
+            <FaGraduationCap />
+            <span>Cursos</span>
+          </Link>
         </li>
       </ul>
     </nav>

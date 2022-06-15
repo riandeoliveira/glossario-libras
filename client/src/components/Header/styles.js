@@ -10,6 +10,7 @@ export const Header = styled.header`
   nav {
     display: flex;
     width: 1200px;
+    height: inherit;
 
     ul {
       width: 100%;
@@ -19,19 +20,20 @@ export const Header = styled.header`
       justify-content: space-around;
 
       li {
-        font-size: 20px;
         display: flex;
-        gap: 10px;
-        align-items: center;
-
-        svg {
-          width: 24px;
-          fill: white;
-        }
 
         a {
+          font-size: 20px;
+          display: flex;
+          gap: 10px;
+          align-items: center;
           text-decoration: none;
           color: white;
+
+          svg {
+            width: 24px;
+            fill: white;
+          }
         }
       }
     }
