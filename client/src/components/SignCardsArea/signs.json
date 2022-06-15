@@ -1,107 +1,107 @@
 [
   {
-    "lettler": "A",
+    "letter": "A",
     "image_url": "https://i.imgur.com/Ml2muS3.png"
   },
   {
-    "lettler": "B",
+    "letter": "B",
     "image_url": "https://i.imgur.com/ytosRaF.png"
   },
   {
-    "lettler": "C",
+    "letter": "C",
     "image_url": "https://i.imgur.com/UJKrNBu.png"
   },
   {
-    "lettler": "D",
+    "letter": "D",
     "image_url": "https://i.imgur.com/S5VqB9O.png"
   },
   {
-    "lettler": "E",
+    "letter": "E",
     "image_url": "https://i.imgur.com/URGtnHD.png"
   },
   {
-    "lettler": "F",
+    "letter": "F",
     "image_url": "https://i.imgur.com/ZjSQd20.png"
   },
   {
-    "lettler": "G",
+    "letter": "G",
     "image_url": "https://i.imgur.com/0nTVQ4k.png"
   },
   {
-    "lettler": "H",
+    "letter": "H",
     "image_url": "https://i.imgur.com/hJL2nhd.png"
   },
   {
-    "lettler": "I",
+    "letter": "I",
     "image_url": "https://i.imgur.com/na3XSqM.png"
   },
   {
-    "lettler": "J",
+    "letter": "J",
     "image_url": "https://i.imgur.com/EtVjcCJ.png"
   },
   {
-    "lettler": "K",
+    "letter": "K",
     "image_url": "https://i.imgur.com/5AIUrL5.png"
   },
   {
-    "lettler": "L",
+    "letter": "L",
     "image_url": "https://i.imgur.com/e7Qzx40.png"
   },
   {
-    "lettler": "M",
+    "letter": "M",
     "image_url": "https://i.imgur.com/IEFBPCG.png"
   },
   {
-    "lettler": "N",
+    "letter": "N",
     "image_url": "https://i.imgur.com/V1UKMob.png"
   },
   {
-    "lettler": "O",
+    "letter": "O",
     "image_url": "https://i.imgur.com/SfTuMZu.png"
   },
   {
-    "lettler": "P",
+    "letter": "P",
     "image_url": "https://i.imgur.com/ZBN96SH.png"
   },
   {
-    "lettler": "Q",
+    "letter": "Q",
     "image_url": "https://i.imgur.com/DRBx1ad.png"
   },
   {
-    "lettler": "R",
+    "letter": "R",
     "image_url": "https://i.imgur.com/qglXcCf.png"
   },
   {
-    "lettler": "S",
+    "letter": "S",
     "image_url": "https://i.imgur.com/Ic4k40y.png"
   },
   {
-    "lettler": "T",
+    "letter": "T",
     "image_url": "https://i.imgur.com/Boms1iH.png"
   },
   {
-    "lettler": "U",
+    "letter": "U",
     "image_url": "https://i.imgur.com/4RDyr0x.png"
   },
 
   {
-    "lettler": "V",
+    "letter": "V",
     "image_url": "https://i.imgur.com/rx7siO9.png"
   },
   {
-    "lettler": "W",
+    "letter": "W",
     "image_url": "https://i.imgur.com/H5PWEX6.png"
   },
   {
-    "lettler": "X",
+    "letter": "X",
     "image_url": "https://i.imgur.com/UeAq31H.png"
   },
   {
-    "lettler": "Y",
+    "letter": "Y",
     "image_url": "https://i.imgur.com/7cqyElt.png"
   },
   {
-    "lettler": "Z",
+    "letter": "Z",
     "image_url": "https://i.imgur.com/KvIqgxZ.png"
   }
 ]
