@@ -1,4 +1,4 @@
-/* Estilos compartilhados entre as páginas de formulário Login e Register */
+// Estilos compartilhados entre as páginas de formulário Login e Register
 
 import styled from "styled-components";
 
