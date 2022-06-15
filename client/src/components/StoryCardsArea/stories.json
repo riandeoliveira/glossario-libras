@@ -1,21 +1,21 @@
 [
   {
-    "title": "Jantar em família",
+    "name": "Jantar em família",
     "xp_points": 10,
     "image_url": "https://i.imgur.com/pPXOWU6.png"
   },
   {
-    "title": "Ida ao shopping",
+    "name": "Ida ao shopping",
     "xp_points": 10,
     "image_url": "https://i.imgur.com/M3CLWj8.png"
   },
   {
-    "title": "Jantar vegetariano",
+    "name": "Jantar vegetariano",
     "xp_points": 10,
     "image_url": "https://i.imgur.com/1pgGO0V.png"
   },
   {
-    "title": "Pedindo um táxi",
+    "name": "Pedindo um táxi",
     "xp_points": 10,
     "image_url": "https://i.imgur.com/94qWCMm.png"
   }
