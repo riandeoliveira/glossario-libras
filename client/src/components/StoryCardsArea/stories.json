@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Jantar em família",
+    "xp_points": 10,
+    "image_url": "https://i.imgur.com/pPXOWU6.png"
+  },
+  {
+    "name": "Ida ao shopping",
+    "xp_points": 10,
+    "image_url": "https://i.imgur.com/M3CLWj8.png"
+  },
+  {
+    "name": "Jantar vegetariano",
+    "xp_points": 10,
+    "image_url": "https://i.imgur.com/1pgGO0V.png"
+  },
+  {
+    "name": "Pedindo um táxi",
+    "xp_points": 10,
+    "image_url": "https://i.imgur.com/94qWCMm.png"
+  }
+]

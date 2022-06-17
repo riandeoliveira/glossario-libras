@@ -1,0 +1,25 @@
+@use "../../styles/theme.scss" as *;
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+  .title_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    width: 1200px;
+
+    .title {
+      font-family: $primary-font;
+      margin: 0;
+    }
+
+    .subtitle {
+      margin: 0;
+    }
+  }
+}

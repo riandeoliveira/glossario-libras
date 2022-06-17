@@ -1,14 +1,8 @@
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 
-export default function Button(props) {
-  // Se receber a prop submit o botão será de enviar, senão será um botão comum.
-
-  return (
-    <button
-      type={props.submit ? "submit" : "button"}
-      className={styles.button_container}
-    >
-      {props.children}
-    </button>
-  );
-}
+// Botão das telas de login e cadastro
+export const Button = ({ submit, children }) => (
+  <button type={submit ? "submit" : "button"} className={styles.button}>
+    {children}
+  </button>
+);

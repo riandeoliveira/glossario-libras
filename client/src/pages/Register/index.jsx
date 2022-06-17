@@ -1,11 +1,15 @@
-import styles from "./styles.module.css";
-import InputBox from "../../components/InputBox";
-import Button from "../../components/Button";
+import { Helmet } from "react-helmet";
+import styles from "./styles.module.scss";
+import { InputBox } from "../../components/InputBox";
+import { Button } from "../../components/Button";
 import { Link } from "react-router-dom";
 
-export default function Register() {
-  return (
-    <div className={styles.card_container}>
+export const Register = () => (
+  <>
+    <Helmet>
+      <title>Cadastro | Glossário de LIBRAS</title>
+    </Helmet>
+    <div className={styles.card}>
       <h1 className={styles.title}>Crie sua conta</h1>
       <form className={styles.form}>
         <InputBox name="Nome" message="Insira seu nome" />
@@ -21,11 +25,10 @@ export default function Register() {
           name="Confirme sua senha"
           message="Insira sua senha novamente"
         />
-
         <div className={styles.button_container}>
           <Button submit>Cadastrar</Button>
         </div>
-        <div className={styles.account_question}>
+        <div className={styles.question_container}>
           <span>Já tem uma conta?</span>
           <Link to="/login" className={styles.link}>
             Entre
@@ -33,5 +36,5 @@ export default function Register() {
         </div>
       </form>
     </div>
-  );
-}
+  </>
+);

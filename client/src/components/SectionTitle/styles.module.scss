@@ -1,0 +1,28 @@
+@use "../../styles/theme.scss" as *;
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  .title_container {
+    width: 1200px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 20px;
+
+    .line {
+      height: 2px;
+      width: 100%;
+    }
+
+    .title {
+      font-family: $primary-font;
+      margin: 0;
+      background-color: white;
+      padding: 8px;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+  }
+}

@@ -1,11 +1,15 @@
-import styles from "./styles.module.css";
-import InputBox from "../../components/InputBox";
-import Button from "../../components/Button";
+import { Helmet } from "react-helmet";
+import styles from "./styles.module.scss";
+import { InputBox } from "../../components/InputBox";
+import { Button } from "../../components/Button";
 import { Link } from "react-router-dom";
 
-export default function Login() {
-  return (
-    <div className={styles.card_container}>
+export const Login = () => (
+  <>
+    <Helmet>
+      <title>Login | Glossário de LIBRAS</title>
+    </Helmet>
+    <div className={styles.card}>
       <h1 className={styles.title}>Entre na sua conta</h1>
       <form className={styles.form}>
         <InputBox email name="E-mail" message="Insira seu e-mail" />
@@ -13,7 +17,7 @@ export default function Login() {
         <div className={styles.button_container}>
           <Button submit>Entrar</Button>
         </div>
-        <div className={styles.account_question}>
+        <div className={styles.question_container}>
           <span>Não tem uma conta?</span>
           <Link to="/cadastro" className={styles.link}>
             Cadastre-se
@@ -21,5 +25,5 @@ export default function Login() {
         </div>
       </form>
     </div>
-  );
-}
+  </>
+);

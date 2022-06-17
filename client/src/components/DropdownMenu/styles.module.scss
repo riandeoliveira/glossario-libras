@@ -1,0 +1,49 @@
+@use "../../styles/mixins.scss" as *;
+@use "../../styles/theme.scss" as *;
+
+.container {
+  @include header-menu;
+
+  .menu {
+    & > a {
+      transition: color 0.1s;
+
+      &:hover {
+        color: #c2c2c2;
+      }
+
+      &:focus {
+        color: white;
+      }
+
+      @media screen and (max-width: 720px) {
+        padding: 0;
+      }
+
+      .title_container {
+        display: flex;
+        gap: 10px;
+
+        .title {
+          @include mobile-header;
+        }
+      }
+    }
+
+    div {
+      background-color: $primary-color;
+
+      .item {
+        transition: background 0.1s;
+
+        &:hover {
+          color: $primary-color;
+
+          .icon {
+            fill: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}

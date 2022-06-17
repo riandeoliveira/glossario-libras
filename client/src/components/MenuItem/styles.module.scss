@@ -1,0 +1,17 @@
+@use "../../styles/mixins.scss" as *;
+
+.container {
+  @include header-menu;
+
+  .link {
+    transition: color 0.1s;
+
+    &:hover {
+      color: #c2c2c2;
+    }
+
+    .title {
+      @include mobile-header;
+    }
+  }
+}

@@ -1,5 +1,5 @@
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 
-export default function Layout(props) {
-  return <div className={styles.layout_container}>{props.children}</div>;
-}
+export const Layout = ({ children }) => (
+  <div className={styles.layout}>{children}</div>
+);
