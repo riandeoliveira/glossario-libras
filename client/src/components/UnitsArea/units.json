@@ -1,0 +1,44 @@
+{
+  "technology": [
+    {
+      "difficulty": "easy",
+      "image_url": "https://i.imgur.com/u9xGPao.png"
+    },
+    {
+      "difficulty": "medium",
+      "image_url": "https://i.imgur.com/EnJ2o95.png"
+    },
+    {
+      "difficulty": "hard",
+      "image_url": "https://i.imgur.com/1nPAHF4.png"
+    }
+  ],
+  "literature": [
+    {
+      "difficulty": "easy",
+      "image_url": "https://i.imgur.com/XPYQm7U.png"
+    },
+    {
+      "difficulty": "medium",
+      "image_url": "https://i.imgur.com/R6CKD4P.png"
+    },
+    {
+      "difficulty": "hard",
+      "image_url": "https://i.imgur.com/tkD12fH.png"
+    }
+  ],
+  "pedagogy": [
+    {
+      "difficulty": "easy",
+      "image_url": "https://i.imgur.com/JRdvYpG.png"
+    },
+    {
+      "difficulty": "medium",
+      "image_url": "https://i.imgur.com/IJqXVPn.png"
+    },
+    {
+      "difficulty": "hard",
+      "image_url": "https://i.imgur.com/zO8ANLP.png"
+    }
+  ]
+}

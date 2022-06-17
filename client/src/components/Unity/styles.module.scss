@@ -1,0 +1,24 @@
+@use "../../styles/theme.scss" as *;
+
+.container {
+  width: 150px;
+  border-radius: 100%;
+  padding: 10px;
+
+  .image {
+    border-radius: inherit;
+    width: 100%;
+  }
+}
+
+.easy {
+  background-color: $easy-color;
+}
+
+.medium {
+  background-color: $medium-color;
+}
+
+.hard {
+  background-color: $hard-color;
+}
