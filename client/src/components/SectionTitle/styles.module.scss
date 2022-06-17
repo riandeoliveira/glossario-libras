@@ -1,22 +1,23 @@
-import styled from "styled-components";
+@use "../../styles/theme.scss" as *;
 
-export const Container = styled.div`
+.container {
   display: flex;
   justify-content: center;
 
-  div {
+  .title_container {
     width: 1200px;
     display: flex;
     position: relative;
     align-items: center;
     gap: 20px;
 
-    hr {
+    .line {
       height: 2px;
       width: 100%;
     }
 
-    h2 {
+    .title {
+      font-family: $primary-font;
       margin: 0;
       background-color: white;
       padding: 8px;
@@ -24,4 +25,4 @@ export const Container = styled.div`
       white-space: nowrap;
     }
   }
-`;
+}

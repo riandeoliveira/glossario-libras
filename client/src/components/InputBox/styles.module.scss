@@ -1,11 +1,9 @@
-import styled from "styled-components";
-
-export const Container = styled.div`
+.container {
   display: flex;
   flex-direction: column;
 
-  label {
+  .label {
     font-family: "Alatsi", sans-serif;
     font-size: 18px;
   }
-`;
+}

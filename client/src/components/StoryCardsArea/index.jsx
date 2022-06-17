@@ -1,14 +1,13 @@
-import * as S from "./styles";
 import stories from "./stories.json";
 import { StoryCard } from "../StoryCard";
-import { Card } from "../Card";
+import styles from "./styles.module.scss";
 
 export const StoryCardsArea = () => (
-  <S.Container>
-    <div>
+  <div className={styles.container}>
+    <div className={styles.cards_container}>
       {stories.map(({ name, xp_points, image_url }, i) => (
-        <Card title={name} text={xp_points} image={image_url} key={i} />
+        <StoryCard title={name} exp={xp_points} image={image_url} key={i} />
       ))}
     </div>
-  </S.Container>
+  </div>
 );

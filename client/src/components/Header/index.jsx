@@ -1,55 +1,21 @@
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBrain,
-  faBook,
-  faHands,
-  faComputer,
-  faGraduationCap,
-  faMasksTheater,
-  faChildren,
-} from "@fortawesome/free-solid-svg-icons";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import * as S from "./styles";
+import styles from "./styles.module.scss";
+import { MenuItem } from "../MenuItem";
 import {
   FaBrain,
   FaBook,
   FaSignLanguage,
-  FaGraduationCap,
+  FaRegUserCircle,
 } from "react-icons/fa";
+import { DropdownMenu } from "../DropdownMenu";
 
 export const Header = () => (
-  <S.Header>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/aprender">
-            <FaBrain />
-            <span>Aprender</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="/historias">
-            <FaBook />
-            <span>Histórias</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="/sinais">
-            <FaSignLanguage />
-            <span>Sinais</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="/cursos">
-            <FaGraduationCap />
-            <span>Cursos</span>
-          </Link>
-        </li>
-      </ul>
+  <header className={styles.header}>
+    <nav className={styles.nav}>
+      <MenuItem title="Aprender" link="/aprender" icon={<FaBrain />} />
+      <MenuItem title="Histórias" link="/historias" icon={<FaBook />} />
+      <MenuItem title="Sinais" link="/sinais" icon={<FaSignLanguage />} />
+      <DropdownMenu />
+      <MenuItem title="Perfil" link="/perfil" icon={<FaRegUserCircle />} />
     </nav>
-  </S.Header>
+  </header>
 );

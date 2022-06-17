@@ -2,27 +2,27 @@ import { Header } from "../../components/Header";
 import { Helmet } from "react-helmet";
 import { StoryCardsArea } from "../../components/StoryCardsArea";
 import { TitleBox } from "../../components/TitleBox";
-import * as S from "./styles";
 import { SectionTitle } from "../../components/SectionTitle";
+import styles from "./styles.module.scss";
 
 export const Stories = () => (
   <>
     <Helmet>
-      <title>Glossário de LIBRAS | Histórias</title>
+      <title>Histórias | Glossário de LIBRAS</title>
     </Helmet>
     <Header />
-    <S.Main>
+    <main className={styles.main}>
       <TitleBox
         title="Histórias em LIBRAS"
         subtitle="Melhore a sua comunicação com essas histórias curtas!"
       />
-      <section>
+      <section className={styles.section}>
         <SectionTitle title="Nível 1" />
         <StoryCardsArea />
       </section>
-      <section>
+      <section className={styles.section}>
         <SectionTitle title="Nível 2" />
       </section>
-    </S.Main>
+    </main>
   </>
 );

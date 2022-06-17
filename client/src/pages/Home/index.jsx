@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Glossário de LIBRAS | Home</title>
+        <title>Aprender | Glossário de LIBRAS</title>
       </Helmet>
       <Header />
       <div className="home">

@@ -1,10 +1,10 @@
-import styled from "styled-components";
+@use "../../styles/theme.scss" as *;
 
-export const Button = styled.button`
+.button {
   background-color: #003f86;
   border-radius: 5px;
   color: white;
-  font-family: "Alatsi", sans-serif;
+  font-family: $primary-font;
   height: 38px;
   padding: 6px 12px;
   transition: background 0.15s;
@@ -13,4 +13,4 @@ export const Button = styled.button`
   &:hover {
     background-color: #156bb7;
   }
-`;
+}

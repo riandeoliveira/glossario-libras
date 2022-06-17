@@ -1,11 +1,11 @@
-import * as S from "./styles";
+import styles from "./styles.module.scss";
 
 // Caixa de título e subtítulo para início de páginas
 export const TitleBox = ({ title, subtitle }) => (
-  <S.Container>
-    <div>
-      <h1>{title}</h1>
-      <p>{subtitle}</p>
+  <div className={styles.container}>
+    <div className={styles.title_container}>
+      <h1 className={styles.title}>{title}</h1>
+      <p className={styles.subtitle}>{subtitle}</p>
     </div>
-  </S.Container>
+  </div>
 );
