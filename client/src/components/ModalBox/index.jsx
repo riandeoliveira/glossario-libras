@@ -27,11 +27,9 @@ export const ModalBox = ({ title, message }) => {
           <Button variant="secondary" onClick={handleClose}>
             Continuar
           </Button>
-          <Button variant="primary">
-            <Link to={checkPathname()} className={styles.link}>
-              Sair
-            </Link>
-          </Button>
+          <Link to={checkPathname()} className={styles.link}>
+            <Button variant="primary">Sair</Button>
+          </Link>
         </Modal.Footer>
       </Modal>
     </>
