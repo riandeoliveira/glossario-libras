@@ -6,6 +6,7 @@ import { Learn } from "./pages/Learn";
 import { Stories } from "./pages/Stories";
 import { Signs } from "./pages/Signs";
 import { Test } from "./pages/Test";
+import exercises from "./json/exercises.json";
 
 export const App = () => (
   <BrowserRouter>
@@ -38,6 +39,9 @@ export const App = () => (
       <Route path="/historias" element={<Stories />} />
       <Route path="/sinais" element={<Signs />} />
       <Route path="/historias/test" element={<Test />} />
+      {exercises.map(({ path }, i) => (
+        <Route path={`historias/${path}`} element={<Test />} key={i} />
+      ))}
     </Routes>
   </BrowserRouter>
 );
