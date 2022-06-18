@@ -15,25 +15,6 @@
   }
 }
 
-@mixin content-card {
-  align-items: center;
-  background-color: white;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  justify-content: space-between;
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.2s;
-
-  .title {
-    font-family: $primary-font;
-    margin: 0;
-  }
-}
-
 @mixin form-card {
   background-color: white;
   border-radius: 20px;
