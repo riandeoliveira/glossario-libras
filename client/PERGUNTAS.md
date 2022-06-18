@@ -48,91 +48,87 @@
 
 ### Tecnologia
 
-#### Nível fácil
+**Questão 1:** Escolha a imagem que traduz "computador":
 
-**Questão 1:** Escolha a imagem que traduz "CPU":
-
-- [X] CPU
-- [ ] CRM
-- [ ] CTO
+- [X] Computador
+- [ ] Notebook
+- [ ] Tablet
 
 <br>
 
-**Questão 2:** Escolha a imagem que traduz "computador":
+**Questão 2:** Escolha a palavra que traduza a seguinte imagem:
 
-- [ ] Notebook
-- [X] Computador
-- [ ] Tablet
+- [X] Hardware
+- [ ] Software
+- [ ] Ferramentas
 
 <br>
 
 **Questão 3:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Antivírus
-- [ ] Vírus
-- [ ] Segurança
+- [X] Teclado
+- [ ] Mouse
+- [ ] Impressora
 
 <br>
 
 **Questão 4:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Periférico
-- [ ] Hardware
-- [ ] Teclado
+- [X] Android
+- [ ] iOS
+- [ ] Windows
 
 <br>
 
 **Questão 5:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Periférico
-- [ ] Hardware
-- [ ] Teclado
+- [X] Wi-fi
+- [ ] Download
+- [ ] E-mail
 
 <br>
 
-#### Nível médio
+**Questão 6:** Escolha a palavra que traduza a seguinte imagem:
 
-**Questão 1:**
-
-- [ ] 
-- [ ] 
-- [ ] 
+- [X] Instagram
+- [ ] Twitter
+- [ ] Facebook
 
 <br>
 
-#### Nível difícil
+**Questão 7:** Escolha a palavra que traduza a seguinte imagem:
 
-**Questão 1:** Escolha a palavra que traduza a seguinte imagem:
+- [X] Pen drive
+- [ ] Webcam
+- [ ] CD
 
-- [ ] Megabyte
-- [X] Gigabyte
-- [ ] Terabyte
+<br>
+
+**Questão 8:** Escolha a palavra que traduza a seguinte imagem:
+
+- [X] Excel
+- [ ] Photoshop
+- [ ] Skype
+
+<br>
+
+**Questão 9:** Escolha a palavra que traduza a seguinte imagem:
+
+- [X] Algoritmo
+- [ ] Código
+- [ ] Programação
+
+<br>
+
+**Questão 10:** Escolha a palavra que traduza a seguinte imagem:
+
+- [X] 
+- [ ] 
+- [ ] 
 
 <br>
 
 ### Administração
-
-#### Nível fácil
-
-**Questão 1:**
-
-- [ ] 
-- [ ] 
-- [ ] 
-
-<br>
-
-#### Nível médio
-
-**Questão 1:**
-
-- [ ] 
-- [ ] 
-- [ ] 
-
-<br>
-
-#### Nível difícil
 
 **Questão 1:**
 
@@ -143,28 +139,6 @@
 <br>
 
 ### Pedagogia
-
-#### Nível fácil
-
-**Questão 1:**
-
-- [ ] 
-- [ ] 
-- [ ] 
-
-<br>
-
-#### Nível médio
-
-**Questão 1:**
-
-- [ ] 
-- [ ] 
-- [ ] 
-
-<br>
-
-#### Nível difícil
 
 **Questão 1:**
 
