@@ -1,6 +1,14 @@
+## Perguntas utilizadas para o jogo
+
+<p align="center">
+  <a href="#tecnologia">Tecnologia</a> •
+  <a href="#administração">Administração</a> •
+  <a href="#pedagogia">Pedagogia</a>
+</p>
+
 ### Tutorial
 
-Questão 1: Escolha a imagem que traduz "horas":
+**Questão 1:** Escolha a imagem que traduz "horas":
 
 - [ ] Comer
 - [ ] Direito
@@ -8,7 +16,7 @@ Questão 1: Escolha a imagem que traduz "horas":
 
 <br>
 
-Questão 2: Escolha a imagem que traduz "casa":
+**Questão 2:** Escolha a imagem que traduz "casa":
 
 - [X] Casa
 - [ ] Respeito
@@ -16,7 +24,7 @@ Questão 2: Escolha a imagem que traduz "casa":
 
 <br>
 
-Questão 3: Escolha a palavra que traduz...:
+**Questão 3:** Escolha a palavra que traduz...:
 
 - [ ] Luminária
 - [X] Escola
@@ -24,7 +32,7 @@ Questão 3: Escolha a palavra que traduz...:
 
 <br>
 
-Questão 4: Escolha a palavra que traduz a imagem seguinte:
+**Questão 4:** Escolha a palavra que traduz a imagem seguinte:
 
 - [X] Surdo
 - [ ] Ouvir
@@ -32,7 +40,7 @@ Questão 4: Escolha a palavra que traduz a imagem seguinte:
 
 <br>
 
-Questão 5: :
+**Questão 5:**
 
 - [ ] 
 - [ ] 
@@ -42,19 +50,63 @@ Questão 5: :
 
 #### Nível fácil
 
-Questão 1:
+**Questão 1:** Escolha a imagem que traduz "CPU":
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [X] CPU
+- [ ] CRM
+- [ ] CTO
+
+<br>
+
+**Questão 2:** Escolha a imagem que traduz "computador":
+
+- [ ] Notebook
+- [X] Computador
+- [ ] Tablet
+
+<br>
+
+**Questão 3:** Escolha a palavra que traduza a seguinte imagem:
+
+- [X] Antivírus
+- [ ] Vírus
+- [ ] Segurança
+
+<br>
+
+**Questão 4:** Escolha a palavra que traduza a seguinte imagem:
+
+- [X] Periférico
+- [ ] Hardware
+- [ ] Teclado
+
+<br>
+
+**Questão 5:** Escolha a palavra que traduza a seguinte imagem:
+
+- [X] Periférico
+- [ ] Hardware
+- [ ] Teclado
 
 <br>
 
 #### Nível médio
 
+**Questão 1:**
+
+- [ ] 
+- [ ] 
+- [ ] 
+
 <br>
 
 #### Nível difícil
+
+**Questão 1:** Escolha a palavra que traduza a seguinte imagem:
+
+- [ ] Megabyte
+- [X] Gigabyte
+- [ ] Terabyte
 
 <br>
 
@@ -62,7 +114,7 @@ Questão 1:
 
 #### Nível fácil
 
-Questão 1:
+**Questão 1:**
 
 - [ ] 
 - [ ] 
@@ -72,9 +124,21 @@ Questão 1:
 
 #### Nível médio
 
+**Questão 1:**
+
+- [ ] 
+- [ ] 
+- [ ] 
+
 <br>
 
 #### Nível difícil
+
+**Questão 1:**
+
+- [ ] 
+- [ ] 
+- [ ] 
 
 <br>
 
@@ -82,7 +146,7 @@ Questão 1:
 
 #### Nível fácil
 
-Questão 1:
+**Questão 1:**
 
 - [ ] 
 - [ ] 
@@ -92,8 +156,20 @@ Questão 1:
 
 #### Nível médio
 
+**Questão 1:**
+
+- [ ] 
+- [ ] 
+- [ ] 
+
 <br>
 
 #### Nível difícil
+
+**Questão 1:**
+
+- [ ] 
+- [ ] 
+- [ ] 
 
 <br>
