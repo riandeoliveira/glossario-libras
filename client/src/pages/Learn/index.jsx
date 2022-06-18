@@ -16,19 +16,7 @@ export const Learn = () => (
       <TitleBox title="Título" subtitle="Descrição da página" />
       <section className={styles.section}>
         <SectionTitle title="Tecnologia" />
-        {/* <UnitsArea sectionName="technology" /> */}
-        <div className={styles.container}>
-          <div className={styles.easy_container}>
-            <Unity difficulty="easy" image="https://i.imgur.com/1nPAHF4.png" />
-          </div>
-          <div className={styles.medium_hard_container}>
-            <Unity
-              difficulty="medium"
-              image="https://i.imgur.com/1nPAHF4.png"
-            />
-            <Unity difficulty="hard" image="https://i.imgur.com/1nPAHF4.png" />
-          </div>
-        </div>
+        <UnitsArea sectionName="technology" />
       </section>
       <section className={styles.section}>
         <SectionTitle title="Literatura" />

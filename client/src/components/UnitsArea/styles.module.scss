@@ -3,14 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-
-  .easy_container {
-    background-color: red;
-  }
+  gap: 50px;
 
   .medium_hard_container {
     display: flex;
-    gap: 40px;
+    gap: 50px;
+
+    @media screen and (max-width: 480px) {
+      flex-direction: column;
+    }
   }
 }
