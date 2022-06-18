@@ -1,24 +1,14 @@
 import styles from "./styles.module.scss";
-import React, { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import { useContext } from "react";
+import { ModalContext } from "../../contexts/modal";
 
-export const ModalBox = ({ title, message, active }) => {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
-  useEffect(() => {
-    alert(active);
-  }, []);
+export const ModalBox = ({ title, message }) => {
+  const { show, handleClose } = useContext(ModalContext);
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
-      </Button>
-
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>{title}</Modal.Title>
