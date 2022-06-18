@@ -5,6 +5,7 @@ import { Register } from "./pages/Register";
 import { Learn } from "./pages/Learn";
 import { Stories } from "./pages/Stories";
 import { Signs } from "./pages/Signs";
+import { Test } from "./pages/Test";
 
 export const App = () => (
   <BrowserRouter>
@@ -36,6 +37,7 @@ export const App = () => (
       <Route path="/aprender" element={<Learn />} />
       <Route path="/historias" element={<Stories />} />
       <Route path="/sinais" element={<Signs />} />
+      <Route path="/historias/test" element={<Test />} />
     </Routes>
   </BrowserRouter>
 );
