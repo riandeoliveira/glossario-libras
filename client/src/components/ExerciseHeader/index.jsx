@@ -9,15 +9,17 @@ export const ExerciseHeader = () => {
   const { handleShow } = useContext(ModalContext);
 
   return (
-    <header className={styles.header}>
-      <div className={styles.container}>
-        <CloseButton onClick={handleShow} />
-        <ProgressBar now={30} className={styles.progress_bar} />
-      </div>
+    <>
+      <header className={styles.header}>
+        <div className={styles.container}>
+          <CloseButton onClick={handleShow} />
+          <ProgressBar now={30} className={styles.progress_bar} />
+        </div>
+      </header>
       <ModalBox
         title="Tem certeza que deseja sair?"
         message="O seu progresso nesta atividade será perdido!"
       />
-    </header>
+    </>
   );
 };
