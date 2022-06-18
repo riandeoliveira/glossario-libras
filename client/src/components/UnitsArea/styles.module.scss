@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .easy_container {
+    background-color: red;
+  }
+
+  .medium_hard_container {
+    display: flex;
+    gap: 40px;
+  }
+}
