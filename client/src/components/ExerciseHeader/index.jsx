@@ -19,6 +19,8 @@ export const ExerciseHeader = () => {
       <ModalBox
         title="Tem certeza que deseja sair?"
         message="O seu progresso nesta atividade será perdido!"
+        acceptOption="Sair"
+        denyOption="Continuar"
       />
     </>
   );

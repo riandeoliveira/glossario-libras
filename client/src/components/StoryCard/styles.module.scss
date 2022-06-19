@@ -5,17 +5,12 @@
   border-radius: 10px;
   padding: 20px;
   transition: transform 0.2s;
-
-  .link {
-    display: flex;
-    height: 100%;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-  }
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 
   .title {
     font-family: $primary-font;

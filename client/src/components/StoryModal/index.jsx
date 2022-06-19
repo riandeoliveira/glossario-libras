@@ -5,30 +5,22 @@ import { useContext } from "react";
 import { ModalContext } from "../../contexts/modal";
 import { Link } from "react-router-dom";
 
-export const ModalBox = ({ title, message, denyOption, acceptOption }) => {
+export const StoryModal = ({ path }) => {
   const { show, handleClose } = useContext(ModalContext);
-
-  const checkPathname = () => {
-    const route = location.pathname;
-
-    if (route.includes("aprender")) return "/aprender";
-
-    return "/historias";
-  };
 
   return (
     <>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>{title}</Modal.Title>
+          <Modal.Title>{path}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{message}</Modal.Body>
+        <Modal.Body>Você deseja iniciar esta história?</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            {denyOption}
+            Não
           </Button>
-          <Link to={checkPathname()} className={styles.link}>
-            <Button variant="primary">{acceptOption}</Button>
+          <Link to={`/historias/${path}`}>
+            <Button variant="primary">Iniciar</Button>
           </Link>
         </Modal.Footer>
       </Modal>
