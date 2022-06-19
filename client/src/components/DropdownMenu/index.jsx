@@ -1,11 +1,7 @@
 import { NavDropdown } from "react-bootstrap";
-import {
-  FaChild,
-  FaTheaterMasks,
-  FaGraduationCap,
-  FaDesktop,
-} from "react-icons/fa";
+import { FaChild, FaGraduationCap, FaDesktop } from "react-icons/fa";
 import styles from "./styles.module.scss";
+import { GiProgression } from "react-icons/gi";
 
 export const DropdownMenu = () => {
   const menuTitle = (
@@ -22,9 +18,12 @@ export const DropdownMenu = () => {
           <FaDesktop className={styles.icon} />
           <span>Tecnologia</span>
         </NavDropdown.Item>
-        <NavDropdown.Item href="/aprender/literatura" className={styles.item}>
-          <FaTheaterMasks className={styles.icon} />
-          <span>Literatura</span>
+        <NavDropdown.Item
+          href="/aprender/administracao"
+          className={styles.item}
+        >
+          <GiProgression className={styles.icon} />
+          <span>Administração</span>
         </NavDropdown.Item>
         <NavDropdown.Item href="/aprender/pedagogia" className={styles.item}>
           <FaChild className={styles.icon} />

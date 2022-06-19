@@ -19,8 +19,8 @@ export const Learn = () => (
         <UnitsArea sectionName="technology" />
       </section>
       <section className={styles.section}>
-        <SectionTitle title="Literatura" />
-        <UnitsArea sectionName="literature" />
+        <SectionTitle title="Administração" />
+        <UnitsArea sectionName="administration" />
       </section>
       <section className={styles.section}>
         <SectionTitle title="Pedagogia" />
