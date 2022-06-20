@@ -13,7 +13,10 @@ export const Learn = () => (
     </Helmet>
     <Header />
     <main className={styles.main}>
-      <TitleBox title="Título" subtitle="Descrição da página" />
+      <TitleBox
+        title="Aprenda LIBRAS"
+        subtitle="Conheça a Língua Brasileira de Sinais enquanto joga"
+      />
       <section className={styles.section}>
         <SectionTitle title="Tecnologia" />
         <UnitsArea sectionName="technology" />

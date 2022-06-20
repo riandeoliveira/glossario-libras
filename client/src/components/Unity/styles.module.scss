@@ -1,32 +1,41 @@
 @use "../../styles/theme.scss" as *;
 
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  text-align: center;
+.link {
+  text-decoration: none;
+  color: black;
 
-  .unity {
-    max-width: 150px;
-    border-radius: 100%;
-    padding: 10px;
-    cursor: pointer;
-    border: 5px solid $primary-color;
-    transition: transform 0.2s;
-
-    &:hover {
-      transform: scale(1.2);
-    }
-
-    .image {
-      border-radius: inherit;
-      width: 100%;
-    }
+  &:hover {
+    color: black;
   }
 
-  .title {
-    font-family: $primary-font;
-    font-size: 20px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+
+    .unity {
+      max-width: 150px;
+      border-radius: 100%;
+      padding: 10px;
+      cursor: pointer;
+      border: 5px solid $primary-color;
+      transition: transform 0.2s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+
+      .image {
+        border-radius: inherit;
+        width: 100%;
+      }
+    }
+
+    .title {
+      font-family: $primary-font;
+      font-size: 20px;
+    }
   }
 }
 
