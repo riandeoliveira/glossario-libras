@@ -1,28 +1,38 @@
 @use "../../styles/theme.scss" as *;
 
-.card {
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  transition: transform 0.2s;
-  display: flex;
+.link {
   text-decoration: none;
-  text-align: center;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 10px;
+  color: black;
+  display: flex;
 
-  .title {
-    font-family: $primary-font;
-    margin: 0;
-    font-size: 20px;
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+    .title {
+      font-family: $primary-font;
+      margin: 0;
+      font-size: 20px;
+    }
+
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 200px;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
-  cursor: pointer;
-  transition: transform 0.2s;
-  width: 200px;
-
   &:hover {
-    transform: scale(1.2);
+    color: black;
   }
 }

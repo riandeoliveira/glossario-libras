@@ -3,26 +3,18 @@ import { useContext } from "react";
 import { ModalContext } from "../../contexts/modal";
 import { StoryModal } from "../StoryModal";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const StoryCard = ({ path, image, title, exp }) => {
-  const { handleShow } = useContext(ModalContext);
-
-  const [storyPath, setStoryPath] = useState();
-
-  const handleStoryPath = (path) => {
-    let element = <StoryModal path={path} />;
-
-    setStoryPath(element);
-  };
-
   return (
     <>
-      <div className={styles.card} onClick={() => handleStoryPath(path)}>
-        <img src={image} alt="" />
-        <h3 className={styles.title}>{title}</h3>
-        <span>+ {exp} EXP</span>
-      </div>
-      {storyPath !== undefined && storyPath}
+      <Link to={path} className={styles.link}>
+        <div className={styles.card}>
+          <img src={image} alt="" />
+          <h3 className={styles.title}>{title}</h3>
+          <span>+ {exp} EXP</span>
+        </div>
+      </Link>
     </>
   );
 };
