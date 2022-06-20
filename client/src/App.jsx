@@ -6,7 +6,8 @@ import { Learn } from "./pages/Learn";
 import { Stories } from "./pages/Stories";
 import { Signs } from "./pages/Signs";
 import { Test } from "./pages/Test";
-import exercises from "./json/exercises.json";
+import stories from "./components/StoryCardsArea/stories.json";
+import units from "./components/UnitsArea/units.json";
 
 export const App = () => (
   <BrowserRouter>
@@ -39,8 +40,17 @@ export const App = () => (
       <Route path="/historias" element={<Stories />} />
       <Route path="/sinais" element={<Signs />} />
       <Route path="/historias/test" element={<Test />} />
-      {exercises.map(({ path }, i) => (
-        <Route path={`historias/${path}`} element={<Test />} key={i} />
+      {stories.map(({ exercise_path }, i) => (
+        <Route path={`historias/${exercise_path}`} element={<Test />} key={i} />
+      ))}
+      {units.technology.map(({ exercise_path }, i) => (
+        <Route path={exercise_path} element={<Test />} key={i} />
+      ))}
+      {units.administration.map(({ exercise_path }, i) => (
+        <Route path={exercise_path} element={<Test />} key={i} />
+      ))}
+      {units.pedagogy.map(({ exercise_path }, i) => (
+        <Route path={exercise_path} element={<Test />} key={i} />
       ))}
     </Routes>
   </BrowserRouter>
