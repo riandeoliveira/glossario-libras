@@ -43,8 +43,12 @@ export const App = () => (
       {stories.map(({ exercise_path }, i) => (
         <Route path={`historias/${exercise_path}`} element={<Test />} key={i} />
       ))}
-      {units.technology.map(({ exercise_path }, i) => (
-        <Route path={exercise_path} element={<Test />} key={i} />
+      {units.technology.map(({ exercise_path, questions }, i) => (
+        <Route
+          path={exercise_path}
+          element={<Test data={questions} />}
+          key={i}
+        />
       ))}
       {units.administration.map(({ exercise_path }, i) => (
         <Route path={exercise_path} element={<Test />} key={i} />
