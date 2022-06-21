@@ -13,7 +13,7 @@ export const ExerciseHeader = () => {
       <header className={styles.header}>
         <div className={styles.container}>
           <CloseButton onClick={handleShow} />
-          <ProgressBar now={30} className={styles.progress_bar} />
+          <ProgressBar now={0} className={styles.progress_bar} />
         </div>
       </header>
       <ModalBox
