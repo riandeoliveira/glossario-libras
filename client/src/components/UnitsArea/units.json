@@ -4,7 +4,69 @@
       "name": "Introdução",
       "difficulty": "easy",
       "exercise_path": "/aprender/tecnologia/introducao",
-      "image_url": "https://i.imgur.com/u9xGPao.png"
+      "image_url": "https://i.imgur.com/u9xGPao.png",
+      "questions": [
+        {
+          "word": "Computador",
+          "answers": [
+            {
+              "gif_word": "Computador",
+              "gif_path": "/src/assets/gifs/computador.gif",
+              "right_answer": true
+            },
+            {
+              "gif_word": "Computador",
+              "gif_path": "/src/assets/gifs/computador.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Computador",
+              "gif_path": "/src/assets/gifs/computador.gif",
+              "right_answer": false
+            }
+          ]
+        },
+        {
+          "word": "Notebook",
+          "answers": [
+            {
+              "gif_word": "Notebook",
+              "gif_path": "/src/assets/gifs/notebook.gif",
+              "right_answer": true
+            },
+            {
+              "gif_word": "Notebook",
+              "gif_path": "/src/assets/gifs/notebook.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Notebook",
+              "gif_path": "/src/assets/gifs/notebook.gif",
+              "right_answer": false
+            }
+          ]
+        },
+        {
+          "word": "Tablet",
+          "answers": [
+            {
+              "gif_word": "Tablet",
+              "gif_path": "/src/assets/gifs/tablet.gif",
+              "right_answer": true
+            },
+            {
+              "gif_word": "Tablet",
+              "gif_path": "/src/assets/gifs/tablet.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Tablet",
+              "gif_path": "/src/assets/gifs/tablet.gif",
+              "right_answer": false
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Nome da unidade",
