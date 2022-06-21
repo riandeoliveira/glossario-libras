@@ -1,13 +1,9 @@
 import styles from "./styles.module.scss";
+import { FormControl } from "react-bootstrap";
 
-export const InputBox = ({ name, email, password, message }) => (
-  <div className={styles.container}>
-    <label className={styles.label}>{name}</label>
-    <input
-      type={email ? "email" : password ? "password" : "text"}
-      className="form-control"
-      placeholder={message}
-      required
-    />
+export const InputBox = ({ title, type, message }) => (
+  <div className={styles.input_container}>
+    <label className={styles.label}>{title}</label>
+    <FormControl type={type} placeholder={message} required />
   </div>
 );
