@@ -2,4 +2,8 @@
 
 .card {
   @include form-card;
+
+  .button {
+    @include button;
+  }
 }

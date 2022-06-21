@@ -2,6 +2,21 @@
 
 @use "./theme.scss" as *;
 
+@mixin button {
+  background-color: #003f86;
+  border-radius: 5px;
+  color: white;
+  font-family: $primary-font;
+  height: 38px;
+  padding: 6px 12px;
+  transition: background 0.15s;
+  width: 100%;
+
+  &:hover {
+    background-color: #156bb7;
+  }
+}
+
 @mixin cards-area {
   display: flex;
   justify-content: center;

@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet";
 import styles from "./styles.module.scss";
 import { InputBox } from "../../components/InputBox";
-import { Button } from "../../components/Button";
 import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 
 export const Register = () => (
   <>
@@ -26,7 +26,7 @@ export const Register = () => (
           message="Insira sua senha novamente"
         />
         <div className={styles.button_container}>
-          <Button submit>Cadastrar</Button>
+          <Button className={styles.button}>Cadastrar</Button>
         </div>
         <div className={styles.question_container}>
           <span>Já tem uma conta?</span>

@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet";
 import styles from "./styles.module.scss";
 import { InputBox } from "../../components/InputBox";
-import { Button } from "../../components/Button";
 import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 
 export const Login = () => (
   <>
@@ -15,7 +15,7 @@ export const Login = () => (
         <InputBox email name="E-mail" message="Insira seu e-mail" />
         <InputBox password name="Senha" message="Insira sua senha" />
         <div className={styles.button_container}>
-          <Button submit>Entrar</Button>
+          <Button className={styles.button}>Entrar</Button>
         </div>
         <div className={styles.question_container}>
           <span>Não tem uma conta?</span>
