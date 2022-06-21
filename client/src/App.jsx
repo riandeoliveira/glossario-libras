@@ -8,6 +8,7 @@ import { Signs } from "./pages/Signs";
 import { Test } from "./pages/Test";
 import stories from "./components/StoryCardsArea/stories.json";
 import units from "./components/UnitsArea/units.json";
+import { QuestionProvider } from "./contexts/QuestionContext";
 
 export const App = () => (
   <BrowserRouter>
@@ -46,7 +47,11 @@ export const App = () => (
       {units.technology.map(({ exercise_path, questions }, i) => (
         <Route
           path={exercise_path}
-          element={<Test data={questions} />}
+          element={
+            <QuestionProvider>
+              <Test data={questions} />
+            </QuestionProvider>
+          }
           key={i}
         />
       ))}

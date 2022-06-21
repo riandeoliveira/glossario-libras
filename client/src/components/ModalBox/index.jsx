@@ -2,11 +2,11 @@ import styles from "./styles.module.scss";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { useContext } from "react";
-import { ModalContext } from "../../contexts/modal";
 import { Link } from "react-router-dom";
+import { QuestionContext } from "../../contexts/QuestionContext";
 
 export const ModalBox = ({ title, message, denyOption, acceptOption }) => {
-  const { show, handleClose } = useContext(ModalContext);
+  const { isOpen, closeModal } = useContext(QuestionContext);
 
   const checkPathname = () => {
     const route = location.pathname;
@@ -18,13 +18,13 @@ export const ModalBox = ({ title, message, denyOption, acceptOption }) => {
 
   return (
     <>
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={isOpen} onHide={closeModal}>
         <Modal.Header closeButton>
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>{message}</Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="secondary" onClick={closeModal}>
             {denyOption}
           </Button>
           <Link to={checkPathname()} className={styles.link}>

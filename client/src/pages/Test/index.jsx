@@ -1,21 +1,22 @@
 import styles from "./styles.module.scss";
 import { Helmet } from "react-helmet";
 import { ExerciseHeader } from "../../components/ExerciseHeader";
-import { ModalProvider } from "../../contexts/modal";
 import { GifCard } from "../../components/GifCard";
-import computador from "../../assets/gifs/computador.gif";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { ExerciseFooter } from "../../components/ExerciseFooter";
+import {
+  QuestionContext,
+  QuestionProvider,
+} from "../../contexts/QuestionContext";
 
 export const Test = ({ data }) => {
-  const [index, setIndex] = useState(0);
+  const { index, handlePercentage, handleIndex } = useContext(QuestionContext);
 
-  const handleIndex = (answer, word) => {
+  const handleAnswer = (answer) => {
     if (answer) {
-      alert("Resposta Correta!");
-
-      setIndex(index + 1);
-    } else alert(`Resposta Errada! A opção selecionada significa: ${word}`);
+      handlePercentage();
+      handleIndex();
+    }
   };
 
   return (
@@ -23,9 +24,7 @@ export const Test = ({ data }) => {
       <Helmet>
         <title>Atividade | Glossário de LIBRAS</title>
       </Helmet>
-      <ModalProvider>
-        <ExerciseHeader />
-      </ModalProvider>
+      <ExerciseHeader />
       <main className={styles.main}>
         <section className={styles.container}>
           <div className={styles.question_container}>
@@ -41,7 +40,7 @@ export const Test = ({ data }) => {
               {data[index].answers.map((card) => (
                 <GifCard
                   gif={card.gif_path}
-                  onClick={() => handleIndex(card.right_answer, card.gif_word)}
+                  onClick={() => handleAnswer(card.right_answer)}
                 />
               ))}
             </div>

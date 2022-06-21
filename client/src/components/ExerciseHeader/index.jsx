@@ -3,17 +3,17 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 import CloseButton from "react-bootstrap/CloseButton";
 import { ModalBox } from "../ModalBox";
 import { useContext } from "react";
-import { ModalContext } from "../../contexts/modal";
+import { QuestionContext } from "../../contexts/QuestionContext";
 
 export const ExerciseHeader = () => {
-  const { handleShow } = useContext(ModalContext);
+  const { openModal, percentage } = useContext(QuestionContext);
 
   return (
     <>
       <header className={styles.header}>
         <div className={styles.container}>
-          <CloseButton onClick={handleShow} />
-          <ProgressBar now={0} className={styles.progress_bar} />
+          <CloseButton onClick={openModal} />
+          <ProgressBar now={percentage} className={styles.progress_bar} />
         </div>
       </header>
       <ModalBox

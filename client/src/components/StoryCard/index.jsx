@@ -1,8 +1,4 @@
 import styles from "./styles.module.scss";
-import { useContext } from "react";
-import { ModalContext } from "../../contexts/modal";
-import { StoryModal } from "../StoryModal";
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export const StoryCard = ({ path, image, title, exp }) => {
