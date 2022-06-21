@@ -1,3 +1,5 @@
+// Arquivo principal da aplicação
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./global.scss";
 import { createRoot } from "react-dom/client";
