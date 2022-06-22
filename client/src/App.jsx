@@ -1,5 +1,7 @@
 /**
  * @REFATORAR
+ *
+ * Separar rotas e otimizar renderizações.
  */
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
