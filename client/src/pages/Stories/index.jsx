@@ -1,8 +1,8 @@
-import { Header } from "../../components/Header";
 import { Helmet } from "react-helmet";
+import { Header } from "../../components/Header";
+import styles from "./styles.module.scss";
 import { TitleBox } from "../../components/TitleBox";
 import { SectionTitle } from "../../components/SectionTitle";
-import styles from "./styles.module.scss";
 import stories from "./stories.json";
 import { StoryCard } from "../../components/StoryCard";
 
