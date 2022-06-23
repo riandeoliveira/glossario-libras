@@ -5,26 +5,26 @@
   justify-content: center;
 
   .title_container {
-    width: 1200px;
-    display: flex;
-    position: relative;
     align-items: center;
+    display: flex;
     gap: 20px;
+    position: relative;
+    width: 1200px;
 
     .line {
-      height: 2px;
-      width: 100%;
-      color: $primary-color;
-      opacity: 1;
       border-radius: 10px;
+      color: $primary-color;
+      height: 2px;
+      opacity: 1;
+      width: 100%;
     }
 
     .title {
+      background-color: $secondary-color;
+      border-radius: 10px;
       font-family: $primary-font;
       margin: 0;
-      background-color: white;
       padding: 8px;
-      border-radius: 10px;
       white-space: nowrap;
     }
   }
