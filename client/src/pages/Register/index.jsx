@@ -4,6 +4,7 @@ import { InputBox } from "../../components/InputBox";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+// Página de cadastro
 export const Register = () => (
   <>
     <Helmet>
