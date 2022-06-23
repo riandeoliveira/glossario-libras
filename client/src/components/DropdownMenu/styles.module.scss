@@ -32,18 +32,6 @@
 
     div {
       background-color: $primary-color;
-
-      .item {
-        transition: background 0.1s;
-
-        &:hover {
-          color: $primary-color;
-
-          .icon {
-            fill: $primary-color;
-          }
-        }
-      }
     }
   }
 }
