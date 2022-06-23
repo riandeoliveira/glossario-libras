@@ -1,11 +1,11 @@
 @use "../../styles/theme.scss" as *;
 
 .link {
+  color: $tertiary-color;
   text-decoration: none;
-  color: black;
 
   &:hover {
-    color: black;
+    color: $tertiary-color;
   }
 
   .container {
@@ -15,11 +15,11 @@
     text-align: center;
 
     .unity {
-      max-width: 150px;
       border-radius: 100%;
-      padding: 10px;
-      cursor: pointer;
       border: 5px solid $primary-color;
+      cursor: pointer;
+      max-width: 150px;
+      padding: 10px;
       transition: transform 0.2s;
 
       &:hover {
