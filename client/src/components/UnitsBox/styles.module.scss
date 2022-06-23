@@ -1,9 +1,9 @@
 .container {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 50px;
+  justify-content: center;
 
   .medium_hard_container {
     display: flex;
