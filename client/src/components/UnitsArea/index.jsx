@@ -1,3 +1,9 @@
+/**
+ * @REFATORAR
+ *
+ * Encontrar uma lógica mais adequada para a renderização condicional do componente Unity.
+ */
+
 import { Unity } from "../Unity";
 import units from "./units.json";
 import styles from "./styles.module.scss";
