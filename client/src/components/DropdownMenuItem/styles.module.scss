@@ -1,0 +1,13 @@
+@use "../../styles/theme.scss" as *;
+
+.item {
+  transition: background 0.1s;
+
+  &:hover {
+    color: $primary-color;
+
+    .icon {
+      fill: $primary-color;
+    }
+  }
+}
