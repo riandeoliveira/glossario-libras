@@ -2,16 +2,13 @@
 
 .card {
   align-items: center;
-  background-color: white;
+  background-color: $secondary-color;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   justify-content: center;
-  justify-content: space-between;
   padding: 20px;
-  text-align: center;
-  transition: transform 0.2s;
 
   .title {
     font-family: $primary-font;
