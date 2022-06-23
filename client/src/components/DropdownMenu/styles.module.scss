@@ -1,19 +1,19 @@
 @use "../../styles/mixins.scss" as *;
 @use "../../styles/theme.scss" as *;
 
-.container {
+.menu_item {
   @include header-menu;
 
-  .menu {
+  .item_container {
     & > a {
       transition: color 0.1s;
 
       &:hover {
-        color: #c2c2c2;
+        color: $secondary-darker-color;
       }
 
       &:focus {
-        color: white;
+        color: $secondary-darker-color;
       }
 
       @media screen and (max-width: 720px) {

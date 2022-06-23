@@ -4,6 +4,8 @@ import { SignCardsArea } from "../../components/SignCardsArea";
 import { TitleBox } from "../../components/TitleBox";
 import { SectionTitle } from "../../components/SectionTitle";
 import styles from "./styles.module.scss";
+import signs from "./signs.json";
+import { SignCard } from "../../components/SignCard";
 
 export const Signs = () => (
   <>
@@ -18,7 +20,13 @@ export const Signs = () => (
       />
       <section className={styles.section}>
         <SectionTitle title="Alfabeto" />
-        <SignCardsArea />
+        <div className={styles.container}>
+          <div className={styles.cards_container}>
+            {signs.map(({ letter, image_url }, i) => (
+              <SignCard title={letter} image={image_url} key={i} />
+            ))}
+          </div>
+        </div>
       </section>
     </main>
   </>

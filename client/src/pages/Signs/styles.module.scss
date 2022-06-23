@@ -2,4 +2,10 @@
 
 .main {
   @include generic-page;
+
+  .section {
+    .container {
+      @include cards-area;
+    }
+  }
 }

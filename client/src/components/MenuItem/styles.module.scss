@@ -1,13 +1,14 @@
 @use "../../styles/mixins.scss" as *;
+@use "../../styles/theme.scss" as *;
 
-.container {
+.menu_item {
   @include header-menu;
 
   .link {
     transition: color 0.1s;
 
     &:hover {
-      color: #c2c2c2;
+      color: $secondary-darker-color;
     }
 
     .title {
