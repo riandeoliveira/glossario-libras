@@ -3,8 +3,7 @@ import { Helmet } from "react-helmet";
 import { TitleBox } from "../../components/TitleBox/index.jsx";
 import styles from "./styles.module.scss";
 import { SectionTitle } from "../../components/SectionTitle/index.jsx";
-import { UnitsArea } from "../../components/UnitsArea/index.jsx";
-import { Unity } from "../../components/Unity";
+import { UnitsBox } from "../../components/UnitsBox/index.jsx";
 
 export const Learn = () => (
   <>
@@ -19,15 +18,15 @@ export const Learn = () => (
       />
       <section className={styles.section}>
         <SectionTitle title="Tecnologia" />
-        <UnitsArea sectionName="technology" />
+        <UnitsBox sectionName="technology" />
       </section>
       <section className={styles.section}>
         <SectionTitle title="Administração" />
-        <UnitsArea sectionName="administration" />
+        <UnitsBox sectionName="administration" />
       </section>
       <section className={styles.section}>
         <SectionTitle title="Pedagogia" />
-        <UnitsArea sectionName="pedagogy" />
+        <UnitsBox sectionName="pedagogy" />
       </section>
     </main>
   </>

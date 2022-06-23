@@ -1,6 +1,5 @@
 import { Header } from "../../components/Header";
 import { Helmet } from "react-helmet";
-import { SignCardsArea } from "../../components/SignCardsArea";
 import { TitleBox } from "../../components/TitleBox";
 import { SectionTitle } from "../../components/SectionTitle";
 import styles from "./styles.module.scss";

@@ -1,59 +1,17 @@
-/**
- * @REFATORAR
- *
- * Encontrar uma lógica mais adequada para a renderização condicional do componente Unity.
- */
-
-import { Unity } from "../Unity";
 import units from "./units.json";
-import styles from "./styles.module.scss";
+import { Unity } from "../Unity";
 
-export const UnitsArea = ({ sectionName }) => {
-  return (
-    <div className={styles.container}>
-      <div className={styles.easy_container}>
-        {units[sectionName].map(
-          ({ name, difficulty, exercise_path, image_url }, i) => (
-            <>
-              {difficulty === "easy" && (
-                <Unity
-                  name={name}
-                  difficulty={difficulty}
-                  path={exercise_path}
-                  image={image_url}
-                  key={i}
-                />
-              )}
-            </>
-          )
-        )}
-      </div>
-      <div className={styles.medium_hard_container}>
-        {units[sectionName].map(
-          ({ name, difficulty, exercise_path, image_url }, i) => (
-            <>
-              {difficulty === "medium" && (
-                <Unity
-                  name={name}
-                  difficulty={difficulty}
-                  path={exercise_path}
-                  image={image_url}
-                  key={i}
-                />
-              )}
-              {difficulty === "hard" && (
-                <Unity
-                  name={name}
-                  difficulty={difficulty}
-                  path={exercise_path}
-                  image={image_url}
-                  key={i}
-                />
-              )}
-            </>
-          )
-        )}
-      </div>
-    </div>
+// Renderiza as unidades de acordo com o nome da seção e dificuldade passadas como props
+export const UnitsArea = ({ sectionName, difficultyLevel }) =>
+  units[sectionName].map(
+    ({ name, difficulty, exercise_path, image_url }, i) =>
+      difficulty === difficultyLevel && (
+        <Unity
+          name={name}
+          difficulty={difficulty}
+          path={exercise_path}
+          image={image_url}
+          key={i}
+        />
+      )
   );
-};
