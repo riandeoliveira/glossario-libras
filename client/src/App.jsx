@@ -13,7 +13,7 @@ import { Stories } from "./pages/Stories";
 import { Signs } from "./pages/Signs";
 import { Test } from "./pages/Test";
 import stories from "./pages/Stories/stories.json";
-import units from "./components/UnitsArea/units.json";
+import units from "./components/UnitsList/units.json";
 import { QuestionProvider } from "./contexts/QuestionContext";
 
 export const App = () => (

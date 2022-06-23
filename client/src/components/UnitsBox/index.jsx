@@ -1,15 +1,15 @@
 import styles from "./styles.module.scss";
-import { UnitsArea } from "../UnitsArea";
+import { UnitsList } from "../UnitsList";
 
 // Caixa contendo a área de unidades
 export const UnitsBox = ({ sectionName }) => (
   <div className={styles.container}>
     <div>
-      <UnitsArea sectionName={sectionName} difficultyLevel="easy" />
+      <UnitsList sectionName={sectionName} difficultyLevel="easy" />
     </div>
     <div className={styles.medium_hard_container}>
-      <UnitsArea sectionName={sectionName} difficultyLevel="medium" />
-      <UnitsArea sectionName={sectionName} difficultyLevel="hard" />
+      <UnitsList sectionName={sectionName} difficultyLevel="medium" />
+      <UnitsList sectionName={sectionName} difficultyLevel="hard" />
     </div>
   </div>
 );
