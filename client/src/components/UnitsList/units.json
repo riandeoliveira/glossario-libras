@@ -11,17 +11,17 @@
           "answers": [
             {
               "gif_word": "Computador",
-              "gif_path": "/src/assets/gifs/computador.gif",
+              "gif_path": "https://i.imgur.com/iV7Z1ou.gif",
               "right_answer": true
             },
             {
               "gif_word": "Computador",
-              "gif_path": "/src/assets/gifs/computador.gif",
+              "gif_path": "https://i.imgur.com/iV7Z1ou.gif",
               "right_answer": false
             },
             {
               "gif_word": "Computador",
-              "gif_path": "/src/assets/gifs/computador.gif",
+              "gif_path": "https://i.imgur.com/iV7Z1ou.gif",
               "right_answer": false
             }
           ]
@@ -31,17 +31,17 @@
           "answers": [
             {
               "gif_word": "Notebook",
-              "gif_path": "/src/assets/gifs/notebook.gif",
+              "gif_path": "https://i.imgur.com/o0AR1Ij.gif",
               "right_answer": true
             },
             {
               "gif_word": "Notebook",
-              "gif_path": "/src/assets/gifs/notebook.gif",
+              "gif_path": "https://i.imgur.com/o0AR1Ij.gif",
               "right_answer": false
             },
             {
               "gif_word": "Notebook",
-              "gif_path": "/src/assets/gifs/notebook.gif",
+              "gif_path": "https://i.imgur.com/o0AR1Ij.gif",
               "right_answer": false
             }
           ]
@@ -51,17 +51,17 @@
           "answers": [
             {
               "gif_word": "Tablet",
-              "gif_path": "/src/assets/gifs/tablet.gif",
+              "gif_path": "https://i.imgur.com/3BNbW0T.gif",
               "right_answer": true
             },
             {
               "gif_word": "Tablet",
-              "gif_path": "/src/assets/gifs/tablet.gif",
+              "gif_path": "https://i.imgur.com/3BNbW0T.gif",
               "right_answer": false
             },
             {
               "gif_word": "Tablet",
-              "gif_path": "/src/assets/gifs/tablet.gif",
+              "gif_path": "https://i.imgur.com/3BNbW0T.gif",
               "right_answer": false
             }
           ]
