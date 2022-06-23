@@ -86,19 +86,19 @@
       "name": "Introdução",
       "difficulty": "easy",
       "exercise_path": "/aprender/administracao/introducao",
-      "image_url": "https://cdn-icons.flaticon.com/png/512/4525/premium/4525048.png?token=exp=1655664215~hmac=69015c07acd6820f7f900af28b40b837"
+      "image_url": "https://i.imgur.com/T3Hpssi.png"
     },
     {
       "name": "Nome da unidade",
       "difficulty": "medium",
       "exercise_path": "/aprender/administracao/",
-      "image_url": "https://cdn-icons.flaticon.com/png/512/1022/premium/1022034.png?token=exp=1655664281~hmac=8c968fd865f34102952d3a15471f83ed"
+      "image_url": "https://i.imgur.com/s4YwheM.png"
     },
     {
       "name": "Nome da unidade",
       "difficulty": "hard",
       "exercise_path": "/aprender/administracao/",
-      "image_url": "https://cdn-icons.flaticon.com/png/512/3251/premium/3251552.png?token=exp=1655664006~hmac=ecbc9f11a0f1fe324a155724237cc15d"
+      "image_url": "https://i.imgur.com/wmrvHiz.png"
     }
   ],
   "pedagogy": [
