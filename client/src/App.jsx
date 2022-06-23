@@ -19,34 +19,12 @@ import { QuestionProvider } from "./contexts/QuestionContext";
 export const App = () => (
   <BrowserRouter>
     <Routes>
-      <Route
-        path="/"
-        element={
-          <Layout>
-            <Login />
-          </Layout>
-        }
-      />
-      <Route
-        path="/login"
-        element={
-          <Layout>
-            <Login />
-          </Layout>
-        }
-      />
-      <Route
-        path="/cadastro"
-        element={
-          <Layout>
-            <Register />
-          </Layout>
-        }
-      />
+      <Route path="/" element={<Login />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/cadastro" element={<Register />} />
       <Route path="/aprender" element={<Learn />} />
       <Route path="/historias" element={<Stories />} />
       <Route path="/sinais" element={<Signs />} />
-      <Route path="/historias/test" element={<Test />} />
       {stories.map(({ exercise_path }, i) => (
         <Route path={`historias/${exercise_path}`} element={<Test />} key={i} />
       ))}
@@ -70,3 +48,4 @@ export const App = () => (
     </Routes>
   </BrowserRouter>
 );
+ 

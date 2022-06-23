@@ -1,3 +1,4 @@
+import { Layout } from "../../components/Layout";
 import { Helmet } from "react-helmet";
 import styles from "./styles.module.scss";
 import { InputBox } from "../../components/InputBox";
@@ -6,7 +7,7 @@ import { Link } from "react-router-dom";
 
 // Página de cadastro
 export const Register = () => (
-  <>
+  <Layout>
     <Helmet>
       <title>Cadastro | Glossário de LIBRAS</title>
     </Helmet>
@@ -37,5 +38,5 @@ export const Register = () => (
         </div>
       </form>
     </div>
-  </>
+  </Layout>
 );

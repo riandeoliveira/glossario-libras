@@ -1,3 +1,4 @@
+import { Layout } from "../../components/Layout";
 import { Helmet } from "react-helmet";
 import styles from "./styles.module.scss";
 import { InputBox } from "../../components/InputBox";
@@ -6,7 +7,7 @@ import { Link } from "react-router-dom";
 
 // Página de login
 export const Login = () => (
-  <>
+  <Layout>
     <Helmet>
       <title>Login | Glossário de LIBRAS</title>
     </Helmet>
@@ -26,5 +27,5 @@ export const Login = () => (
         </div>
       </form>
     </div>
-  </>
+  </Layout>
 );
