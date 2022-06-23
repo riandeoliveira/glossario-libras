@@ -6,6 +6,7 @@ import { SectionTitle } from "../../components/SectionTitle";
 import stories from "./stories.json";
 import { StoryCard } from "../../components/StoryCard";
 
+// Página de Histórias
 export const Stories = () => (
   <>
     <Helmet>

@@ -27,9 +27,13 @@
     }
 
     .title {
-      font-family: $primary-font;
+      font-family: $primary-font, $default-font;
       font-size: 20px;
       margin: 0;
+    }
+
+    .experience {
+      font-family: $secondary-font, $default-font;
     }
   }
 }

@@ -7,7 +7,7 @@
   background-color: $primary-color;
   border-radius: 5px;
   color: $secondary-color;
-  font-family: $primary-font;
+  font-family: $primary-font, $default-font;
   height: 38px;
   transition: background 0.15s;
   width: 100%;
@@ -48,7 +48,7 @@
   }
 
   .title {
-    font-family: $primary-font;
+    font-family: $primary-font, $default-font;
     text-align: center;
   }
 
