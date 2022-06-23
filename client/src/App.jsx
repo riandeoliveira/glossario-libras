@@ -15,20 +15,20 @@ import { Test } from "./pages/Test";
 import stories from "./pages/Stories/stories.json";
 import units from "./components/UnitsList/units.json";
 import { QuestionProvider } from "./contexts/QuestionContext";
+import routes from "./routes";
 
 export const App = () => (
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Login />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/cadastro" element={<Register />} />
-      <Route path="/aprender" element={<Learn />} />
-      <Route path="/historias" element={<Stories />} />
-      <Route path="/sinais" element={<Signs />} />
-      {stories.map(({ exercise_path }, i) => (
-        <Route path={`historias/${exercise_path}`} element={<Test />} key={i} />
+      {routes.map(({ path, page }, i) => (
+        <Route exact path={path} element={page} key={i} />
       ))}
-      {units.technology.map(({ exercise_path, questions }, i) => (
+
+      {/* {stories.map(({ exercise_path }, i) => (
+        <Route path={`historias/${exercise_path}`} element={<Test />} key={i} />
+      ))}  */}
+
+      {/* {units.technology.map(({ exercise_path, questions }, i) => (
         <Route
           path={exercise_path}
           element={
@@ -44,8 +44,7 @@ export const App = () => (
       ))}
       {units.pedagogy.map(({ exercise_path }, i) => (
         <Route path={exercise_path} element={<Test />} key={i} />
-      ))}
+      ))} */}
     </Routes>
   </BrowserRouter>
 );
- 
