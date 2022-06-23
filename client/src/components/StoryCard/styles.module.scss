@@ -1,38 +1,35 @@
 @use "../../styles/theme.scss" as *;
 
 .link {
-  text-decoration: none;
-  color: black;
+  color: $tertiary-color;
   display: flex;
+  text-decoration: none;
+
+  &:hover {
+    color: $tertiary-color;
+  }
 
   .card {
-    background-color: white;
+    background-color: $secondary-color;
     border-radius: 10px;
-    padding: 20px;
-    transition: transform 0.2s;
-    display: flex;
-    text-decoration: none;
-    text-align: center;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-
-    .title {
-      font-family: $primary-font;
-      margin: 0;
-      font-size: 20px;
-    }
-
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
     transition: transform 0.2s;
     width: 200px;
 
     &:hover {
       transform: scale(1.2);
     }
-  }
 
-  &:hover {
-    color: black;
+    .title {
+      font-family: $primary-font;
+      font-size: 20px;
+      margin: 0;
+    }
   }
 }

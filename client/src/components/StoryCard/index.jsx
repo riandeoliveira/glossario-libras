@@ -1,16 +1,13 @@
-import styles from "./styles.module.scss";
 import { Link } from "react-router-dom";
+import styles from "./styles.module.scss";
 
-export const StoryCard = ({ path, image, title, exp }) => {
-  return (
-    <>
-      <Link to={path} className={styles.link}>
-        <div className={styles.card}>
-          <img src={image} alt="" />
-          <h3 className={styles.title}>{title}</h3>
-          <span>+ {exp} EXP</span>
-        </div>
-      </Link>
-    </>
-  );
-};
+// Card de história da página Histórias
+export const StoryCard = ({ path, image, title, exp }) => (
+  <Link to={path} className={styles.link}>
+    <div className={styles.card}>
+      <img src={image} alt="Histórias de LIBRAS" />
+      <h3 className={styles.title}>{title}</h3>
+      <span className={styles.experience}>+ {exp} EXP</span>
+    </div>
+  </Link>
+);
