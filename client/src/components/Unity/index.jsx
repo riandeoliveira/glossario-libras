@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./styles.module.scss";
 
+// Unidade da página Aprender
 export const Unity = ({ path, difficulty, image, name }) => (
   <Link to={path} className={styles.link}>
     <div className={styles.container}>
