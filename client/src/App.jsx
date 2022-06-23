@@ -12,7 +12,7 @@ import { Learn } from "./pages/Learn";
 import { Stories } from "./pages/Stories";
 import { Signs } from "./pages/Signs";
 import { Test } from "./pages/Test";
-import stories from "./components/StoryCardsArea/stories.json";
+import stories from "./pages/Stories/stories.json";
 import units from "./components/UnitsArea/units.json";
 import { QuestionProvider } from "./contexts/QuestionContext";
 
