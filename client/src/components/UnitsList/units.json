@@ -1,0 +1,124 @@
+{
+  "technology": [
+    {
+      "name": "Introdução",
+      "difficulty": "easy",
+      "exercise_path": "/aprender/tecnologia/introducao",
+      "image_url": "https://i.imgur.com/u9xGPao.png",
+      "questions": [
+        {
+          "word": "Computador",
+          "answers": [
+            {
+              "gif_word": "Computador",
+              "gif_path": "/src/assets/gifs/computador.gif",
+              "right_answer": true
+            },
+            {
+              "gif_word": "Computador",
+              "gif_path": "/src/assets/gifs/computador.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Computador",
+              "gif_path": "/src/assets/gifs/computador.gif",
+              "right_answer": false
+            }
+          ]
+        },
+        {
+          "word": "Notebook",
+          "answers": [
+            {
+              "gif_word": "Notebook",
+              "gif_path": "/src/assets/gifs/notebook.gif",
+              "right_answer": true
+            },
+            {
+              "gif_word": "Notebook",
+              "gif_path": "/src/assets/gifs/notebook.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Notebook",
+              "gif_path": "/src/assets/gifs/notebook.gif",
+              "right_answer": false
+            }
+          ]
+        },
+        {
+          "word": "Tablet",
+          "answers": [
+            {
+              "gif_word": "Tablet",
+              "gif_path": "/src/assets/gifs/tablet.gif",
+              "right_answer": true
+            },
+            {
+              "gif_word": "Tablet",
+              "gif_path": "/src/assets/gifs/tablet.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Tablet",
+              "gif_path": "/src/assets/gifs/tablet.gif",
+              "right_answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nome da unidade",
+      "difficulty": "medium",
+      "exercise_path": "/aprender/tecnologia/",
+      "image_url": "https://i.imgur.com/EnJ2o95.png"
+    },
+    {
+      "name": "Nome da unidade",
+      "difficulty": "hard",
+      "exercise_path": "/aprender/tecnologia/",
+      "image_url": "https://i.imgur.com/1nPAHF4.png"
+    }
+  ],
+  "administration": [
+    {
+      "name": "Introdução",
+      "difficulty": "easy",
+      "exercise_path": "/aprender/administracao/introducao",
+      "image_url": "https://cdn-icons.flaticon.com/png/512/4525/premium/4525048.png?token=exp=1655664215~hmac=69015c07acd6820f7f900af28b40b837"
+    },
+    {
+      "name": "Nome da unidade",
+      "difficulty": "medium",
+      "exercise_path": "/aprender/administracao/",
+      "image_url": "https://cdn-icons.flaticon.com/png/512/1022/premium/1022034.png?token=exp=1655664281~hmac=8c968fd865f34102952d3a15471f83ed"
+    },
+    {
+      "name": "Nome da unidade",
+      "difficulty": "hard",
+      "exercise_path": "/aprender/administracao/",
+      "image_url": "https://cdn-icons.flaticon.com/png/512/3251/premium/3251552.png?token=exp=1655664006~hmac=ecbc9f11a0f1fe324a155724237cc15d"
+    }
+  ],
+  "pedagogy": [
+    {
+      "name": "Introdução",
+      "difficulty": "easy",
+      "exercise_path": "/aprender/pedagogia/introducao",
+      "image_url": "https://i.imgur.com/JRdvYpG.png"
+    },
+    {
+      "name": "Nome da unidade",
+      "difficulty": "medium",
+      "exercise_path": "/aprender/pedagogia/",
+      "image_url": "https://i.imgur.com/IJqXVPn.png"
+    },
+    {
+      "name": "Nome da unidade",
+      "difficulty": "hard",
+      "exercise_path": "/aprender/pedagogia/",
+      "image_url": "https://i.imgur.com/zO8ANLP.png"
+    }
+  ]
+}

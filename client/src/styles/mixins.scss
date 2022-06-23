@@ -1,52 +1,54 @@
-// Mixins: conjunto de estilos utilizados em mais de um arquivo
+// Estilos utilizados em múltiplos arquivos
 
 @use "./theme.scss" as *;
 
+// Botão padrão da aplicação
+@mixin button {
+  background-color: $primary-color;
+  border-radius: 5px;
+  color: $secondary-color;
+  font-family: $primary-font, $default-font;
+  height: 38px;
+  transition: background 0.15s;
+  width: 100%;
+
+  &:hover {
+    background-color: $primary-light-color;
+  }
+}
+
+// Estilos de cards das páginas Histórias e Sinais
 @mixin cards-area {
   display: flex;
   justify-content: center;
 
   .cards_container {
     display: flex;
-    width: 1200px;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+    width: 1200px;
   }
 }
 
-@mixin content-card {
-  align-items: center;
-  background-color: white;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  justify-content: space-between;
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.2s;
-
-  .title {
-    font-family: $primary-font;
-    margin: 0;
-  }
-}
-
+// Card de formulário para cadastro e login
 @mixin form-card {
-  background-color: white;
+  background-color: $secondary-color;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin: 20px;
   padding: 48px;
-  transition: all 0.5s;
+  transition: padding 0.5s;
   width: 480px;
 
+  @media screen and (max-width: 420px) {
+    padding: 24px;
+  }
+
   .title {
-    font-family: $primary-font;
+    font-family: $primary-font, $default-font;
     text-align: center;
   }
 
@@ -55,13 +57,16 @@
     flex-direction: column;
     gap: 24px;
 
-    .button_container {
+    .button {
+      @include button;
+
       margin-top: 16px;
     }
 
-    .question_container {
+    .account_question {
       display: flex;
       flex-wrap: wrap;
+      font-family: $secondary-font, $default-font;
       gap: 5px;
       justify-content: center;
       text-align: center;
@@ -70,18 +75,15 @@
         text-decoration: none;
 
         &:hover {
-          color: #156bb7;
+          color: $primary-light-color;
           text-decoration: underline;
         }
       }
     }
   }
-
-  @media screen and (max-width: 420px) {
-    padding: 24px;
-  }
 }
 
+// Estilos compartilhados entre páginas
 @mixin generic-page {
   display: flex;
   flex-direction: column;
@@ -96,16 +98,15 @@
   }
 }
 
+// Item de menu do cabeçalho
 @mixin header-menu {
   align-items: center;
-  color: white;
   display: flex;
-  gap: 10px;
   height: inherit;
 
   a {
     align-items: center;
-    color: white;
+    color: $secondary-color;
     display: flex;
     gap: 10px;
     height: inherit;
@@ -113,6 +114,7 @@
   }
 }
 
+// Lida com a responsividade do cabeçalho
 @mixin mobile-header {
   @media screen and (max-width: 720px) {
     display: none;

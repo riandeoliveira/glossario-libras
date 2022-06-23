@@ -1,5 +1,6 @@
 import styles from "./styles.module.scss";
 
+// Caixa de título de seções
 export const SectionTitle = ({ title }) => (
   <div className={styles.container}>
     <div className={styles.title_container}>

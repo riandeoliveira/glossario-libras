@@ -1,11 +1,14 @@
+import { Link } from "react-router-dom";
 import styles from "./styles.module.scss";
 
-export const Unity = ({ difficulty, image }) => {
-  console.log(styles);
-
-  return (
-    <div className={`${styles.container} ${styles[difficulty]}`}>
-      <img src={image} alt="" className={styles.image} />
+// Unidade da página Aprender
+export const Unity = ({ path, difficulty, image, name }) => (
+  <Link to={path} className={styles.link}>
+    <div className={styles.container}>
+      <div className={`${styles.unity} ${styles[difficulty]}`}>
+        <img src={image} alt="Unity icon" className={styles.image} />
+      </div>
+      <span className={styles.title}>{name}</span>
     </div>
-  );
-};
+  </Link>
+);

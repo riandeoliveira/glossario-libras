@@ -1,34 +1,36 @@
+import { Layout } from "../../components/Layout";
 import { Helmet } from "react-helmet";
 import styles from "./styles.module.scss";
 import { InputBox } from "../../components/InputBox";
-import { Button } from "../../components/Button";
+import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+// Página de cadastro
 export const Register = () => (
-  <>
+  <Layout>
     <Helmet>
       <title>Cadastro | Glossário de LIBRAS</title>
     </Helmet>
     <div className={styles.card}>
       <h1 className={styles.title}>Crie sua conta</h1>
       <form className={styles.form}>
-        <InputBox name="Nome" message="Insira seu nome" />
-        <InputBox email name="E-mail" message="Insira seu e-mail" />
+        <InputBox title="Nome" message="Insira seu nome" />
+        <InputBox type="email" title="E-mail" message="Insira seu e-mail" />
         <InputBox
-          email
-          name="Confirme seu e-mail"
+          type="email"
+          title="Confirme seu e-mail"
           message="Insira seu e-mail novamente"
         />
-        <InputBox password name="Senha" message="Insira sua senha" />
+        <InputBox type="password" title="Senha" message="Insira sua senha" />
         <InputBox
-          password
-          name="Confirme sua senha"
+          type="password"
+          title="Confirme sua senha"
           message="Insira sua senha novamente"
         />
-        <div className={styles.button_container}>
-          <Button submit>Cadastrar</Button>
-        </div>
-        <div className={styles.question_container}>
+        <Button type="submit" className={styles.button}>
+          Cadastrar
+        </Button>
+        <div className={styles.account_question}>
           <span>Já tem uma conta?</span>
           <Link to="/login" className={styles.link}>
             Entre
@@ -36,5 +38,5 @@ export const Register = () => (
         </div>
       </form>
     </div>
-  </>
+  </Layout>
 );

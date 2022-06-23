@@ -1,5 +1,17 @@
-@use "../../styles/mixins.scss" as *;
+@use "../../styles/theme.scss" as *;
 
 .card {
-  @include content-card;
+  align-items: center;
+  background-color: $secondary-color;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+
+  .title {
+    font-family: $primary-font, $default-font;
+    margin: 0;
+  }
 }

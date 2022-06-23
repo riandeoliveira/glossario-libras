@@ -1,13 +1,9 @@
 import styles from "./styles.module.scss";
 import { MenuItem } from "../MenuItem";
-import {
-  FaBrain,
-  FaBook,
-  FaSignLanguage,
-  FaRegUserCircle,
-} from "react-icons/fa";
+import { FaBrain, FaBook, FaSignLanguage, FaRegUserCircle } from "../../assets";
 import { DropdownMenu } from "../DropdownMenu";
 
+// Cabeçalho da aplicação
 export const Header = () => (
   <header className={styles.header}>
     <nav className={styles.nav}>

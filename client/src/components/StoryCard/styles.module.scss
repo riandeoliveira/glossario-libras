@@ -1,17 +1,39 @@
-@use "../../styles/mixins.scss" as *;
+@use "../../styles/theme.scss" as *;
 
-.card {
-  @include content-card;
-
-  cursor: pointer;
-  transition: transform 0.2s;
-  width: 200px;
+.link {
+  color: $tertiary-color;
+  display: flex;
+  text-decoration: none;
 
   &:hover {
-    transform: scale(1.2);
+    color: $tertiary-color;
   }
 
-  .title {
-    font-size: 20px;
+  .card {
+    background-color: $secondary-color;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    width: 200px;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    .title {
+      font-family: $primary-font, $default-font;
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .experience {
+      font-family: $secondary-font, $default-font;
+    }
   }
 }

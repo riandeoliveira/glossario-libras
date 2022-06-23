@@ -1,24 +1,52 @@
 @use "../../styles/theme.scss" as *;
 
-.container {
-  width: 150px;
-  border-radius: 100%;
-  padding: 10px;
+.link {
+  color: $tertiary-color;
+  text-decoration: none;
 
-  .image {
-    border-radius: inherit;
-    width: 100%;
+  &:hover {
+    color: $tertiary-color;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+
+    .unity {
+      border-radius: 100%;
+      border: 5px solid $primary-color;
+      cursor: pointer;
+      max-width: 150px;
+      padding: 10px;
+      transition: transform 0.2s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+
+      .image {
+        border-radius: inherit;
+        width: 100%;
+      }
+    }
+
+    .title {
+      font-family: $primary-font, $default-font;
+      font-size: 20px;
+    }
   }
 }
 
 .easy {
-  background-color: $easy-color;
+  background-color: $green-color;
 }
 
 .medium {
-  background-color: $medium-color;
+  background-color: $yellow-color;
 }
 
 .hard {
-  background-color: $hard-color;
+  background-color: $red-color;
 }

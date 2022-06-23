@@ -1,0 +1,18 @@
+@use "../../styles/theme.scss" as *;
+
+.card {
+  max-width: 250px;
+  border-radius: 10px;
+  border: 2px solid $primary-color;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  .gif {
+    width: 100%;
+    border-radius: inherit;
+  }
+}

@@ -1,11 +1,11 @@
-import { Header } from "../../components/Header/index.jsx";
 import { Helmet } from "react-helmet";
-import "./styles.css";
-import { TitleBox } from "../../components/TitleBox/index.jsx";
+import { Header } from "../../components/Header/index.jsx";
 import styles from "./styles.module.scss";
+import { TitleBox } from "../../components/TitleBox/index.jsx";
 import { SectionTitle } from "../../components/SectionTitle/index.jsx";
-import { UnitsArea } from "../../components/UnitsArea/index.jsx";
+import { UnitsBox } from "../../components/UnitsBox/index.jsx";
 
+// Página Aprender
 export const Learn = () => (
   <>
     <Helmet>
@@ -13,18 +13,21 @@ export const Learn = () => (
     </Helmet>
     <Header />
     <main className={styles.main}>
-      <TitleBox title="Título" subtitle="Descrição da página" />
+      <TitleBox
+        title="Aprenda LIBRAS"
+        subtitle="Conheça a Língua Brasileira de Sinais enquanto joga"
+      />
       <section className={styles.section}>
         <SectionTitle title="Tecnologia" />
-        <UnitsArea sectionName="technology" />
+        <UnitsBox sectionName="technology" />
       </section>
       <section className={styles.section}>
-        <SectionTitle title="Literatura" />
-        <UnitsArea sectionName="literature" />
+        <SectionTitle title="Administração" />
+        <UnitsBox sectionName="administration" />
       </section>
       <section className={styles.section}>
         <SectionTitle title="Pedagogia" />
-        <UnitsArea sectionName="pedagogy" />
+        <UnitsBox sectionName="pedagogy" />
       </section>
     </main>
   </>
