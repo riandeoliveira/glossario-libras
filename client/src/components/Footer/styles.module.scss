@@ -1,67 +1,63 @@
 @use "../../styles/theme.scss" as *;
 
 .footer {
-  display: flex;
   background-color: $primary-color;
-}
-
-.left {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.footerTitle {
-  color: white;
-}
-
-.description {
-  color: white;
-  margin: 20px 0px;
-}
-
-.socialContainer {
-  display: flex;
-}
-
-.socialIcon {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 20px;
-}
-
-.center {
-  flex: 1;
-  padding: 20px 0px 0px 150px;
-}
-
-.linksTitle {
-  color: white;
-  margin-bottom: 30px;
-}
-
-.list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.listItem {
-  color: white;
-  width: 50%;
-  margin-bottom: 10px;
-  text-decoration: none;
-}
-
-.right {
-  flex: 1;
-  padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: $secondary-color;
+
+  .container {
+    display: flex;
+    width: 1200px;
+    gap: 40px;
+
+    @media screen and (max-width: 940px) {
+      flex-direction: column;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+
+      .title {
+        margin-bottom: 20px;
+        font-family: $primary-font, $default-font;
+      }
+
+      .description {
+        margin: 0;
+        text-align: justify;
+      }
+
+      .list_container {
+        display: flex;
+        justify-content: space-between;
+
+        .list {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          padding: 0;
+          margin: 0;
+
+          .link {
+            color: $secondary-color;
+            text-decoration: none;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+      .stamp_container {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
 }

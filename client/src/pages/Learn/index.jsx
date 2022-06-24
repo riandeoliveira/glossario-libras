@@ -30,8 +30,7 @@ export const Learn = () => (
         <SectionTitle title="Pedagogia" />
         <UnitsBox sectionName="pedagogy" />
       </section>
-    <Footer />
-
     </main>
+    <Footer />
   </>
 );
