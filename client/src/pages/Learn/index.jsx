@@ -1,10 +1,10 @@
-import { Helmet } from "react-helmet";
-import { Header } from "../../components/Header/index.jsx";
-import styles from "./styles.module.scss";
-import { TitleBox } from "../../components/TitleBox/index.jsx";
-import { SectionTitle } from "../../components/SectionTitle/index.jsx";
-import { UnitsBox } from "../../components/UnitsBox/index.jsx";
-import { Footer } from "../../components/Footer/index.jsx";
+import { Helmet } from 'react-helmet';
+import { Header } from '../../components/Header/index.jsx';
+import styles from './styles.module.scss';
+import { TitleBox } from '../../components/TitleBox/index.jsx';
+import { SectionTitle } from '../../components/SectionTitle/index.jsx';
+import { UnitsBox } from '../../components/UnitsBox/index.jsx';
+import { Footer } from '../../components/Footer/index.jsx';
 
 // Página Aprender
 export const Learn = () => (
