@@ -1,4 +1,4 @@
-import units from "./units.json";
+import units from "../../data/units.json";
 import { Unity } from "../Unity";
 
 // Renderiza as unidades de acordo com o nome da seção e dificuldade passadas como props

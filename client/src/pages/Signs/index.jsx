@@ -3,7 +3,7 @@ import { Header } from "../../components/Header";
 import styles from "./styles.module.scss";
 import { TitleBox } from "../../components/TitleBox";
 import { SectionTitle } from "../../components/SectionTitle";
-import signs from "./signs.json";
+import signs from "../../data/signs.json";
 import { SignCard } from "../../components/SignCard";
 
 // Página de Sinais

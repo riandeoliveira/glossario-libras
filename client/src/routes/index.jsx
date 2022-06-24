@@ -1,4 +1,4 @@
-import units from "../components/UnitsList/units.json";
+import units from "../data/units.json";
 import { Login } from "../pages/Login";
 import { Register } from "../pages/Register";
 import { Learn } from "../pages/Learn";
