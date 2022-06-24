@@ -35,11 +35,13 @@ const routes = [
 ];
 
 // Transforma os cursos em um array de strings:
-Object.keys(units).map((unity) => {
-  // Usa a string como argumento e navega em cada curso, obtendo os dados necessários para a criação de uma rota dinâmica:
-  units[unity].map(({ exercise_path, questions }) => {
+const courseList = Object.keys(units).map((unity) => unity);
+
+// Usa a string como argumento e navega em cada curso, obtendo os dados necessários para a criação de uma rota dinâmica:
+courseList.map((course) => {
+  units[course].map(({ exercise_path, questions }) => {
     // Cria um objeto dinamicamente contendo os dados obtidos:
-    const data = {
+    const newRoute = {
       path: exercise_path,
       page: (
         <QuestionProvider>
@@ -49,7 +51,7 @@ Object.keys(units).map((unity) => {
     };
 
     // Adiciona o objeto no array de rotas:
-    routes.push(data);
+    routes.push(newRoute);
   });
 });
 
