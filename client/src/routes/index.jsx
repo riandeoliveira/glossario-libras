@@ -4,31 +4,8 @@ import { Register } from "../pages/Register";
 import { Learn } from "../pages/Learn";
 import { Stories } from "../pages/Stories";
 import { Signs } from "../pages/Signs";
-import { Test } from "../pages/Test";
-
-/**
- * @REFATORAR
- *
- * Otimizar isso com métodos de objetos???
- *
- * units.technology
- * units.administration
- * units.pedagogy
- */
-
-// Criar um objeto para cada unidade
-// Total: 9 objetos criados dinamicamente
-
-const unitsList = Object.keys(units).map((unity) => unity);
-
-const aaa = unitsList.map((unity) =>
-  units[unity].map(({ exercise_path, questions }) => ({
-    path: exercise_path,
-    page: <Test data={questions} />,
-  }))
-);
-
-console.log(aaa);
+import { QuestionProvider } from "../contexts/QuestionContext";
+import { Exercise } from "../pages/Exercise";
 
 const routes = [
   {
@@ -55,10 +32,25 @@ const routes = [
     path: "/sinais",
     page: <Signs />,
   },
-  {
-    path: "/aaa",
-    page: "",
-  },
 ];
+
+// Transforma os cursos em um array de strings:
+Object.keys(units).map((unity) => {
+  // Usa a string como argumento e navega em cada curso, obtendo os dados necessários para a criação de uma rota dinâmica:
+  units[unity].map(({ exercise_path, questions }) => {
+    // Cria um objeto dinamicamente contendo os dados obtidos:
+    const data = {
+      path: exercise_path,
+      page: (
+        <QuestionProvider>
+          <Exercise data={questions} />
+        </QuestionProvider>
+      ),
+    };
+
+    // Adiciona o objeto no array de rotas:
+    routes.push(data);
+  });
+});
 
 export default routes;
