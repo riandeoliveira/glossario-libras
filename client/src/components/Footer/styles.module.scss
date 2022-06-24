@@ -1,0 +1,67 @@
+@use "../../styles/theme.scss" as *;
+
+.footer {
+  display: flex;
+  background-color: $primary-color;
+}
+
+.left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footerTitle {
+  color: white;
+}
+
+.description {
+  color: white;
+  margin: 20px 0px;
+}
+
+.socialContainer {
+  display: flex;
+}
+
+.socialIcon {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.center {
+  flex: 1;
+  padding: 20px 0px 0px 150px;
+}
+
+.linksTitle {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listItem {
+  color: white;
+  width: 50%;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -22,7 +22,7 @@ export const Exercise = ({ data }) => {
   return (
     <>
       <Helmet>
-        <title>Atividade | Glossário de LIBRAS</title>
+        <title>Atividade | Glossário de Libras</title>
       </Helmet>
       <ExerciseHeader />
       <main className={styles.main}>

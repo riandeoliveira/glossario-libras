@@ -10,12 +10,12 @@ import { SignCard } from "../../components/SignCard";
 export const Signs = () => (
   <>
     <Helmet>
-      <title>Sinais | Glossário de LIBRAS</title>
+      <title>Sinais | Glossário de Libras</title>
     </Helmet>
     <Header />
     <main className={styles.main}>
       <TitleBox
-        title="Vamos aprender os sinais de LIBRAS"
+        title="Vamos aprender os sinais de Libras"
         subtitle="Aprenda os sinais mais usados na Língua Brasileira de Sinais"
       />
       <section className={styles.section}>

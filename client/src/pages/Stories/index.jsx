@@ -10,12 +10,12 @@ import { StoryCard } from "../../components/StoryCard";
 export const Stories = () => (
   <>
     <Helmet>
-      <title>Histórias | Glossário de LIBRAS</title>
+      <title>Histórias | Glossário de Libras</title>
     </Helmet>
     <Header />
     <main className={styles.main}>
       <TitleBox
-        title="Histórias em LIBRAS"
+        title="Histórias em Libras"
         subtitle="Melhore a sua comunicação com essas histórias curtas!"
       />
       <section className={styles.section}>
