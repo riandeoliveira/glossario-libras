@@ -9,7 +9,7 @@ import {
   QuestionProvider,
 } from "../../contexts/QuestionContext";
 
-export const Test = ({ data }) => {
+export const Exercise = ({ data }) => {
   const { index, handlePercentage, handleIndex } = useContext(QuestionContext);
 
   const handleAnswer = (answer) => {
