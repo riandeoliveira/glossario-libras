@@ -3,7 +3,7 @@
     {
       "name": "Fácil",
       "difficulty": "easy",
-      "exercise_path": "/aprender/tecnologia/introducao",
+      "exercise_path": "/aprender/tecnologia/inicio",
       "image_url": "https://i.imgur.com/u9xGPao.png",
       "questions": [
         {
@@ -11,12 +11,12 @@
           "answers": [
             {
               "gif_word": "Mesa",
-              "gif_path": "https://i.imgur.com/TkzlHyo.gif",
+              "gif_path": "",
               "right_answer": false
             },
             {
               "gif_word": "Colher",
-              "gif_path": "https://i.imgur.com/TkzlHyo.gif",
+              "gif_path": "",
               "right_answer": false
             },
             {
@@ -111,7 +111,7 @@
     {
       "name": "Médio",
       "difficulty": "medium",
-      "exercise_path": "/aprender/tecnologia/",
+      "exercise_path": "/aprender/tecnologia/medio",
       "image_url": "https://i.imgur.com/EnJ2o95.png",
       "questions": [
         {
@@ -119,18 +119,18 @@
           "answers": [
             {
               "gif_word": "Notebook",
-              "gif_path": "",
-              "right_answer": 0
+              "gif_path": "https://i.imgur.com/TkzlHyo.gif",
+              "right_answer": false
             },
             {
               "gif_word": "Computador",
-              "gif_path": "",
+              "gif_path": "https://i.imgur.com/X3NgL35.gif",
               "right_answer": true
             },
             {
               "gif_word": "Tablet",
               "gif_path": "",
-              "right_answer": 0
+              "right_answer": false
             }
           ]
         },
@@ -145,12 +145,12 @@
             {
               "gif_word": "Pesquisar",
               "gif_path": "",
-              "right_answer": 0
+              "right_answer": false
             },
             {
               "gif_word": "Digitar",
               "gif_path": "",
-              "right_answer": 0
+              "right_answer": false
             }
           ]
         },
@@ -160,12 +160,12 @@
             {
               "gif_word": "Ligação",
               "gif_path": "",
-              "right_answer": 0
+              "right_answer": false
             },
             {
               "gif_word": "Tablet",
               "gif_path": "",
-              "right_answer": 0
+              "right_answer": false
             },
             {
               "gif_word": "Celular",
@@ -180,12 +180,12 @@
             {
               "gif_word": "Site",
               "gif_path": "",
-              "right_answer": 0
+              "right_answer": false
             },
             {
               "gif_word": "Programa",
               "gif_path": "",
-              "right_answer": 0
+              "right_answer": false
             },
             {
               "gif_word": "Aplicativo",
@@ -204,13 +204,13 @@
             },
             {
               "gif_word": "Wi-fi",
-              "gif_path": "",
-              "right_answer": 0
+              "gif_path": "https://i.imgur.com/zt7QuT3.gif",
+              "right_answer": false
             },
             {
               "gif_word": "Computador",
-              "gif_path": "",
-              "right_answer": 0
+              "gif_path": "https://i.imgur.com/X3NgL35.gif",
+              "right_answer": false
             }
           ]
         }
@@ -219,26 +219,106 @@
     {
       "name": "Difícil",
       "difficulty": "hard",
-      "exercise_path": "/aprender/tecnologia/",
+      "exercise_path": "/aprender/tecnologia/dificil",
       "image_url": "https://i.imgur.com/1nPAHF4.png",
       "questions": [
         {
-          "word": "",
+          "word": "Apple",
           "answers": [
             {
-              "gif_word": "",
+              "gif_word": "Apple",
               "gif_path": "",
-              "right_answer": 0
+              "right_answer": true
             },
             {
-              "gif_word": "",
+              "gif_word": "Maçã",
               "gif_path": "",
-              "right_answer": 0
+              "right_answer": false
             },
             {
-              "gif_word": "",
-              "gif_path": "",
-              "right_answer": 0
+              "gif_word": "iOS",
+              "gif_path": "https://i.imgur.com/T9nGMWX.gif",
+              "right_answer": false
+            }
+          ]
+        },
+        {
+          "word": "Hardware",
+          "answers": [
+            {
+              "gif_word": "Software",
+              "gif_path": "https://i.imgur.com/41ACIfm.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Hardware",
+              "gif_path": "https://i.imgur.com/6MTlRrN.gif",
+              "right_answer": true
+            },
+            {
+              "gif_word": "Ferramentas",
+              "gif_path": "https://i.imgur.com/u9D2qOL.gif",
+              "right_answer": false
+            }
+          ]
+        },
+        {
+          "word": "Algoritmo",
+          "answers": [
+            {
+              "gif_word": "Código",
+              "gif_path": "https://i.imgur.com/EEWBh5x.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Programação",
+              "gif_path": "https://i.imgur.com/XcfSqqC.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Algoritmo",
+              "gif_path": "https://i.imgur.com/GOMVs06.gif",
+              "right_answer": true
+            }
+          ]
+        },
+        {
+          "word": "Android",
+          "answers": [
+            {
+              "gif_word": "Pendrive",
+              "gif_path": "https://i.imgur.com/kUeVU1O.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Windows",
+              "gif_path": "https://i.imgur.com/91yIYoD.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Android",
+              "gif_path": "https://i.imgur.com/6KMn80e.gif",
+              "right_answer": true
+            }
+          ]
+        },
+        {
+          "word": "Excel",
+          "answers": [
+            {
+              "gif_word": "Photoshop",
+              "gif_path": "https://i.imgur.com/yDmYvXL.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Skype",
+              "gif_path": "https://i.imgur.com/0lO0Yur.gif",
+              "right_answer": false
+            },
+            {
+              "gif_word": "Excel",
+              "gif_path": "https://i.imgur.com/eRPWfbB.gif",
+              "right_answer": true
             }
           ]
         }
