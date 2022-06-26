@@ -1,9 +1,0 @@
-@use "../../styles/theme.scss" as *;
-
-.layout {
-  align-items: center;
-  background-color: $primary-color;
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-}
