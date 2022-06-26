@@ -1,8 +1,10 @@
+@use "../../styles/theme.scss" as *;
+
 .link {
-  color: white;
+  color: $secondary-color;
   text-decoration: none;
 
   &:hover {
-    color: white;
+    color: $secondary-color;
   }
 }
