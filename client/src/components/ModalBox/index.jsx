@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { QuestionContext } from "../../contexts/QuestionContext";
-import Modal from "react-bootstrap/Modal";
+import { Modal } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.scss";

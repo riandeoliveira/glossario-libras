@@ -1,24 +1,24 @@
 @use "../../styles/theme.scss" as *;
 
 .header {
-  display: flex;
-  justify-content: center;
-  height: 70px;
   align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: center;
   padding: 0 20px;
 
   .container {
-    width: 1200px;
+    align-items: center;
     display: flex;
     gap: 20px;
-    align-items: center;
+    width: 1200px;
 
     .progress_bar {
       border-radius: 10px;
       width: 100%;
 
       div {
-        background-color: #156bb7;
+        background-color: $primary-light-color;
       }
     }
   }
