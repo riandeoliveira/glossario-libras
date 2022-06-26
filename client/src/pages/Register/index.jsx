@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export const Register = () => (
   <Layout>
     <Helmet>
-      <title>Cadastro | Glossário de LIBRAS</title>
+      <title>Cadastro | Glossário de Libras</title>
     </Helmet>
     <div className={styles.card}>
       <h1 className={styles.title}>Crie sua conta</h1>

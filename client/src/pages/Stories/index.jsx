@@ -3,19 +3,19 @@ import { Header } from "../../components/Header";
 import styles from "./styles.module.scss";
 import { TitleBox } from "../../components/TitleBox";
 import { SectionTitle } from "../../components/SectionTitle";
-import stories from "./stories.json";
+import stories from "../../data/stories.json";
 import { StoryCard } from "../../components/StoryCard";
 
 // Página de Histórias
 export const Stories = () => (
   <>
     <Helmet>
-      <title>Histórias | Glossário de LIBRAS</title>
+      <title>Histórias | Glossário de Libras</title>
     </Helmet>
     <Header />
     <main className={styles.main}>
       <TitleBox
-        title="Histórias em LIBRAS"
+        title="Histórias em Libras"
         subtitle="Melhore a sua comunicação com essas histórias curtas!"
       />
       <section className={styles.section}>

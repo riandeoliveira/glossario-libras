@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export const Login = () => (
   <Layout>
     <Helmet>
-      <title>Login | Glossário de LIBRAS</title>
+      <title>Login | Glossário de Libras</title>
     </Helmet>
     <div className={styles.card}>
       <h1 className={styles.title}>Entre na sua conta</h1>

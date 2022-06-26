@@ -1,20 +1,21 @@
-import { Helmet } from "react-helmet";
-import { Header } from "../../components/Header/index.jsx";
-import styles from "./styles.module.scss";
-import { TitleBox } from "../../components/TitleBox/index.jsx";
-import { SectionTitle } from "../../components/SectionTitle/index.jsx";
-import { UnitsBox } from "../../components/UnitsBox/index.jsx";
+import { Helmet } from 'react-helmet';
+import { Header } from '../../components/Header/index.jsx';
+import styles from './styles.module.scss';
+import { TitleBox } from '../../components/TitleBox/index.jsx';
+import { SectionTitle } from '../../components/SectionTitle/index.jsx';
+import { UnitsBox } from '../../components/UnitsBox/index.jsx';
+import { Footer } from '../../components/Footer/index.jsx';
 
 // Página Aprender
 export const Learn = () => (
   <>
     <Helmet>
-      <title>Aprender | Glossário de LIBRAS</title>
+      <title>Aprender | Glossário de Libras</title>
     </Helmet>
     <Header />
     <main className={styles.main}>
       <TitleBox
-        title="Aprenda LIBRAS"
+        title="Aprenda Libras"
         subtitle="Conheça a Língua Brasileira de Sinais enquanto joga"
       />
       <section className={styles.section}>
@@ -30,5 +31,6 @@ export const Learn = () => (
         <UnitsBox sectionName="pedagogy" />
       </section>
     </main>
+    <Footer />
   </>
 );

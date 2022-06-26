@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 export const StoryCard = ({ path, image, title, exp }) => (
   <Link to={path} className={styles.link}>
     <div className={styles.card}>
-      <img src={image} alt="Histórias de LIBRAS" />
+      <img src={image} alt="Histórias de Libras" />
       <h3 className={styles.title}>{title}</h3>
       <span className={styles.experience}>+ {exp} EXP</span>
     </div>
