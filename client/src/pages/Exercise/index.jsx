@@ -9,8 +9,13 @@ import {
 } from "../../contexts/QuestionContext";
 import { Button } from "react-bootstrap";
 import { QuestionResult } from "../../components/QuestionResult";
+import { useParams } from "react-router-dom";
 
-export const Exercise = ({ data }) => {
+export const Exercise = ({ questionData }) => {
+  const params = useParams();
+
+  console.log(params);
+
   const {
     index,
     handlePercentage,
@@ -62,18 +67,22 @@ export const Exercise = ({ data }) => {
               <div className={styles.question_content}>
                 <p className={styles.question}>
                   Traduza a palavra:{" "}
-                  <span className={styles.word}>{data[index].word}</span>
+                  <span className={styles.word}>
+                    {questionData[index].word}
+                  </span>
                 </p>
               </div>
             </div>
             <div className={styles.gifs_container}>
               <div className={styles.gifs}>
-                {data[index].answers.map(({ gif_path, right_answer }) => (
-                  <GifCard
-                    gif={gif_path}
-                    onClick={() => onAlternativeSelected(right_answer)}
-                  />
-                ))}
+                {questionData[index].answers.map(
+                  ({ gif_path, right_answer }) => (
+                    <GifCard
+                      gif={gif_path}
+                      onClick={() => onAlternativeSelected(right_answer)}
+                    />
+                  )
+                )}
               </div>
             </div>
           </section>

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "technology",
+    "title": "Tecnologia",
+    "path": "tecnologia"
+  },
+  {
+    "name": "administration",
+    "title": "Administração",
+    "path": "administracao"
+  },
+  {
+    "name": "pedagogy",
+    "title": "Pedagogia",
+    "path": "pedagogia"
+  }
+]
