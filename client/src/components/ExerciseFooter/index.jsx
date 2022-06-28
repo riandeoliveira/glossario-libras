@@ -4,17 +4,13 @@ import { QuestionContext } from "../../contexts/QuestionContext";
 import styles from "./styles.module.scss";
 
 export const ExerciseFooter = () => {
-  const { handlePercentage, handleIndex } = useContext(QuestionContext);
-
-  const handleQuestionAnswer = () => {
-    handlePercentage();
-    handleIndex();
-  };
+  const { handlePercentage, handleIndex, isCorrectAnswer } =
+    useContext(QuestionContext);
 
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <Button primary onClick={handleQuestionAnswer}>
+        <Button primary disabled={!isCorrectAnswer}>
           Próxima pergunta
         </Button>
       </div>

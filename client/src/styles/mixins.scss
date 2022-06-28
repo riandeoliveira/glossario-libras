@@ -33,50 +33,58 @@
 
 // Card de formulário para cadastro e login
 @mixin form-card {
-  background-color: $secondary-color;
-  border-radius: 20px;
+  align-items: center;
+  background-color: $primary-color;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin: 20px;
-  padding: 48px;
-  transition: padding 0.5s;
-  width: 480px;
+  justify-content: center;
+  min-height: 100vh;
 
-  @media screen and (max-width: 420px) {
-    padding: 24px;
-  }
-
-  .title {
-    font-family: $primary-font, $default-font;
-    text-align: center;
-  }
-
-  .form {
+  .card {
+    background-color: $secondary-color;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
+    margin: 20px;
+    padding: 48px;
+    transition: padding 0.5s;
+    width: 480px;
 
-    .button {
-      @include button;
-
-      margin-top: 16px;
+    @media screen and (max-width: 420px) {
+      padding: 24px;
     }
 
-    .account_question {
-      display: flex;
-      flex-wrap: wrap;
-      font-family: $secondary-font, $default-font;
-      gap: 5px;
-      justify-content: center;
+    .title {
+      font-family: $primary-font, $default-font;
       text-align: center;
+    }
 
-      .link {
-        text-decoration: none;
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
 
-        &:hover {
-          color: $primary-light-color;
-          text-decoration: underline;
+      .button {
+        @include button;
+
+        margin-top: 16px;
+      }
+
+      .account_question {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: $secondary-font, $default-font;
+        gap: 5px;
+        justify-content: center;
+        text-align: center;
+
+        .link {
+          text-decoration: none;
+
+          &:hover {
+            color: $primary-light-color;
+            text-decoration: underline;
+          }
         }
       }
     }

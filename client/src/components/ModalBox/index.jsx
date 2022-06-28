@@ -1,37 +1,27 @@
-import styles from "./styles.module.scss";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 import { useContext } from "react";
-import { Link } from "react-router-dom";
 import { QuestionContext } from "../../contexts/QuestionContext";
+import { Modal } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
+import styles from "./styles.module.scss";
 
-export const ModalBox = ({ title, message, denyOption, acceptOption }) => {
+export const ModalBox = () => {
   const { isOpen, closeModal } = useContext(QuestionContext);
 
-  const checkPathname = () => {
-    const route = location.pathname;
-
-    if (route.includes("aprender")) return "/aprender";
-
-    return "/historias";
-  };
-
   return (
-    <>
-      <Modal show={isOpen} onHide={closeModal}>
-        <Modal.Header closeButton>
-          <Modal.Title>{title}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>{message}</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={closeModal}>
-            {denyOption}
-          </Button>
-          <Link to={checkPathname()} className={styles.link}>
-            <Button variant="primary">{acceptOption}</Button>
-          </Link>
-        </Modal.Footer>
-      </Modal>
-    </>
+    <Modal show={isOpen} onHide={closeModal}>
+      <Modal.Header closeButton>
+        <Modal.Title>Tem certeza que deseja sair?</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>O seu progresso nesta atividade será perdido!</Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={closeModal}>
+          Continuar
+        </Button>
+        <Link to="/aprender" className={styles.link}>
+          <Button variant="primary">Sair</Button>
+        </Link>
+      </Modal.Footer>
+    </Modal>
   );
 };

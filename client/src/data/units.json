@@ -3,7 +3,7 @@
     {
       "name": "Fácil",
       "difficulty": "easy",
-      "exercise_path": "/aprender/tecnologia/inicio",
+      "exercise_path": "/aprender/tecnologia/facil",
       "image_url": "https://i.imgur.com/u9xGPao.png",
       "questions": [
         {
@@ -329,21 +329,21 @@
     {
       "name": "Fácil",
       "difficulty": "easy",
-      "exercise_path": "/aprender/administracao/introducao",
+      "exercise_path": "/aprender/administracao/facil",
       "image_url": "https://i.imgur.com/T3Hpssi.png",
       "questions": []
     },
     {
       "name": "Médio",
       "difficulty": "medium",
-      "exercise_path": "/aprender/administracao/",
+      "exercise_path": "/aprender/administracao/medio",
       "image_url": "https://i.imgur.com/s4YwheM.png",
       "questions": []
     },
     {
       "name": "Difícil",
       "difficulty": "hard",
-      "exercise_path": "/aprender/administracao/",
+      "exercise_path": "/aprender/administracao/dificil ",
       "image_url": "https://i.imgur.com/wmrvHiz.png",
       "questions": []
     }
@@ -352,21 +352,21 @@
     {
       "name": "Fácil",
       "difficulty": "easy",
-      "exercise_path": "/aprender/pedagogia/introducao",
+      "exercise_path": "/aprender/pedagogia/facil",
       "image_url": "https://i.imgur.com/JRdvYpG.png",
       "questions": []
     },
     {
       "name": "Médio",
       "difficulty": "medium",
-      "exercise_path": "/aprender/pedagogia/",
+      "exercise_path": "/aprender/pedagogia/medio",
       "image_url": "https://i.imgur.com/IJqXVPn.png",
       "questions": []
     },
     {
       "name": "Difícil",
       "difficulty": "hard",
-      "exercise_path": "/aprender/pedagogia/",
+      "exercise_path": "/aprender/pedagogia/dificil",
       "image_url": "https://i.imgur.com/zO8ANLP.png",
       "questions": []
     }
