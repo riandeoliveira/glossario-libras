@@ -10,11 +10,13 @@ import {
 import { Button } from "react-bootstrap";
 import { QuestionResult } from "../../components/QuestionResult";
 import { useParams } from "react-router-dom";
+import courses from "../../data/courses.json";
 
 export const Exercise = ({ questionData }) => {
-  const params = useParams();
+  const { course_name, unity_difficulty } = useParams();
 
-  console.log(params);
+  const course = courses.filter(({ path }) => path === course_name)[0];
+  const unity = course.units.filter(({ path }) => path === unity_difficulty)[0];
 
   const {
     index,
@@ -68,21 +70,19 @@ export const Exercise = ({ questionData }) => {
                 <p className={styles.question}>
                   Traduza a palavra:{" "}
                   <span className={styles.word}>
-                    {questionData[index].word}
+                    {unity.questions[index].word}
                   </span>
                 </p>
               </div>
             </div>
             <div className={styles.gifs_container}>
               <div className={styles.gifs}>
-                {questionData[index].answers.map(
-                  ({ gif_path, right_answer }) => (
-                    <GifCard
-                      gif={gif_path}
-                      onClick={() => onAlternativeSelected(right_answer)}
-                    />
-                  )
-                )}
+                {unity.questions[index].answers.map((answer) => (
+                  <GifCard
+                    gif={answer.path}
+                    onClick={() => onAlternativeSelected(answer.right_answer)}
+                  />
+                ))}
               </div>
             </div>
           </section>

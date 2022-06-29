@@ -16,9 +16,9 @@ export const DropdownMenu = () => {
   return (
     <div className={styles.menu_item}>
       <NavDropdown title={menuTitle} className={styles.item_container}>
-        {courses.map(({ title, path }, i) => (
+        {courses.map(({ name, path }, i) => (
           <DropdownMenuItem
-            name={title}
+            name={name}
             path={path}
             icon={menuIcons[i]}
             key={i}

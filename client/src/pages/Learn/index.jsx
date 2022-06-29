@@ -9,7 +9,7 @@ import { Course } from "../../components/Course/index.jsx";
 
 // Página Aprender
 export const Learn = () => {
-  const { course } = useParams();
+  const { course_name } = useParams();
 
   return (
     <>
@@ -22,12 +22,14 @@ export const Learn = () => {
           title="Aprenda Libras"
           subtitle="Conheça a Língua Brasileira de Sinais enquanto joga"
         />
-        {courses.map(({ title, name, path }, i) => (
+        {courses.map(({ name, course, path }, i) => (
           <>
-            {course === undefined && (
-              <Course title={title} name={name} key={i} />
+            {course_name === undefined && (
+              <Course title={name} course={course} key={i} />
             )}
-            {course === path && <Course title={title} name={name} key={i} />}
+            {course_name === path && (
+              <Course title={name} course={course} key={i} />
+            )}
           </>
         ))}
       </main>

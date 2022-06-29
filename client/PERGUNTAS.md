@@ -12,13 +12,13 @@
 
 - [ ] Comer
 - [ ] Direito
-- [X] Horas
+- [x] Horas
 
 <br>
 
 **Questão 2:** Escolha a imagem que traduz "casa":
 
-- [X] Casa
+- [x] Casa
 - [ ] Respeito
 - [ ] Escola
 
@@ -27,14 +27,14 @@
 **Questão 3:** Escolha a palavra que traduz...:
 
 - [ ] Luminária
-- [X] Escola
+- [x] Escola
 - [ ] Faculdade
 
 <br>
 
 **Questão 4:** Escolha a palavra que traduz a imagem seguinte:
 
-- [X] Surdo
+- [x] Surdo
 - [ ] Ouvir
 - [ ] Falar
 
@@ -42,15 +42,15 @@
 
 **Questão 5:**
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
 
 ### Tecnologia
 
 **Questão 1:** Escolha a imagem que traduz "computador":
 
-- [X] Computador
+- [x] Computador
 - [ ] Notebook
 - [ ] Tablet
 
@@ -58,7 +58,7 @@
 
 **Questão 2:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Hardware
+- [x] Hardware
 - [ ] Software
 - [ ] Ferramentas
 
@@ -66,7 +66,7 @@
 
 **Questão 3:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Teclado
+- [x] Teclado
 - [ ] Mouse
 - [ ] Impressora
 
@@ -74,7 +74,7 @@
 
 **Questão 4:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Android
+- [x] Android
 - [ ] iOS
 - [ ] Windows
 
@@ -82,7 +82,7 @@
 
 **Questão 5:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Wi-fi
+- [x] Wi-fi
 - [ ] Download
 - [ ] E-mail
 
@@ -90,7 +90,7 @@
 
 **Questão 6:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Instagram
+- [x] Instagram
 - [ ] Twitter
 - [ ] Facebook
 
@@ -98,7 +98,7 @@
 
 **Questão 7:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Pen drive
+- [x] Pen drive
 - [ ] Webcam
 - [ ] CD
 
@@ -106,7 +106,7 @@
 
 **Questão 8:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Excel
+- [x] Excel
 - [ ] Photoshop
 - [ ] Skype
 
@@ -114,7 +114,7 @@
 
 **Questão 9:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] Algoritmo
+- [x] Algoritmo
 - [ ] Código
 - [ ] Programação
 
@@ -122,9 +122,9 @@
 
 **Questão 10:** Escolha a palavra que traduza a seguinte imagem:
 
-- [X] 
-- [ ] 
-- [ ] 
+- [x]
+- [ ]
+- [ ]
 
 <br>
 
@@ -132,9 +132,9 @@
 
 **Questão 1:**
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
 
 <br>
 
@@ -142,8 +142,8 @@
 
 **Questão 1:**
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
 
 <br>
