@@ -11,6 +11,8 @@ import { Button } from "react-bootstrap";
 import { QuestionResult } from "../../components/QuestionResult";
 import { useParams } from "react-router-dom";
 import courses from "../../data/courses.json";
+import right_answer from "../../assets/audios/right_answer.wav";
+import wrong_answer from "../../assets/audios/wrong_answer.wav";
 
 export const Exercise = ({ questionData }) => {
   const { course_name, unity_difficulty } = useParams();
@@ -32,12 +34,20 @@ export const Exercise = ({ questionData }) => {
     if (answer) {
       acceptAnswer();
 
+      const audio = new Audio(right_answer);
+
+      audio.play();
+
       footerElement.current.classList.remove(styles.wrong_answer);
       footerElement.current.classList.add(styles.right_answer);
     }
 
     if (answer === false) {
       denyAnswer();
+
+      const audio = new Audio(wrong_answer);
+
+      audio.play();
 
       footerElement.current.classList.remove(styles.right_answer);
       footerElement.current.classList.add(styles.wrong_answer);
