@@ -382,7 +382,28 @@
         "name": "Difícil",
         "path": "dificil",
         "image_url": "https://i.imgur.com/zO8ANLP.png",
-        "questions": []
+        "questions": [
+          {
+            "word": "Curso online",
+            "answers": [
+              {
+                "word": "Curso online",
+                "path": "https://i.imgur.com/LK3l6HG.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Curso",
+                "path": "https://i.imgur.com/JRgd7g2.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Curso presencial",
+                "path": "https://i.imgur.com/Sd5ykpF.gif",
+                "right_answer": false
+              }
+            ]
+          }
+        ]
       }
     ]
   }
