@@ -79,7 +79,7 @@ export const Exercise = ({ questionData }) => {
               <div className={styles.question_content}>
                 <p className={styles.question}>
                   Traduza a palavra:{" "}
-                  <span className={styles.word}>
+                  <span id="questionExercise" className={styles.word}>
                     {unity.questions[index].word}
                   </span>
                 </p>
