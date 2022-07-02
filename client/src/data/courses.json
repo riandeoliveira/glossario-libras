@@ -368,14 +368,216 @@
         "name": "Fácil",
         "path": "facil",
         "image_url": "https://i.imgur.com/JRdvYpG.png",
-        "questions": []
+        "questions": [
+          {
+            "word": "Pedagogia",
+            "answers": [
+              {
+                "word": "Bola",
+                "path": "https://i.imgur.com/rosvKEa.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Libras",
+                "path": "https://i.imgur.com/2wls17o.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Pedagogia",
+                "path": "https://i.imgur.com/i2Srehq.gif",
+                "right_answer": true
+              }
+            ]
+          },
+          {
+            "word": "Atividade",
+            "answers": [
+              {
+                "word": "Te amo",
+                "path": "https://i.imgur.com/XbrzRoK.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Atividade",
+                "path": "https://i.imgur.com/lbaX9Bb.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Casa",
+                "path": "https://i.imgur.com/WTuD3Iy.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Colega",
+            "answers": [
+              {
+                "word": "Colega",
+                "path": "https://i.imgur.com/pVg1y4s.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Escada",
+                "path": "https://i.imgur.com/WgDYVJo.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Cadeira",
+                "path": "https://i.imgur.com/V6B6BhG.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Lousa",
+            "answers": [
+              {
+                "word": "Água",
+                "path": "https://i.imgur.com/CCapUwv.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Lousa",
+                "path": "https://i.imgur.com/QSTm0ci.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Colher",
+                "path": "https://i.imgur.com/wF6pt8R.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Régua",
+            "answers": [
+              {
+                "word": "Bicicleta",
+                "path": "https://i.imgur.com/dZ1lXq6.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Régua",
+                "path": "https://i.imgur.com/VmIg9Tv.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Anel",
+                "path": "https://i.imgur.com/rk26OaF.gif",
+                "right_answer": false
+              }
+            ]
+          }
+        ]
       },
       {
         "difficulty": "medium",
         "name": "Médio",
         "path": "medio",
         "image_url": "https://i.imgur.com/IJqXVPn.png",
-        "questions": []
+        "questions": [
+          {
+            "word": "Caneta",
+            "answers": [
+              {
+                "word": "Relógio",
+                "path": "https://i.imgur.com/J8eLsQp.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Caneta",
+                "path": "https://i.imgur.com/SJJ3Mvz.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Lápis",
+                "path": "https://i.imgur.com/9kOTT9u.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Cadeira",
+            "answers": [
+              {
+                "word": "Mesa",
+                "path": "https://i.imgur.com/V7KnFEA.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Brasil",
+                "path": "https://i.imgur.com/9LVsc4z.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Cadeira",
+                "path": "https://i.imgur.com/FwjofW5.gif",
+                "right_answer": true
+              }
+            ]
+          },
+          {
+            "word": "Banheiro",
+            "answers": [
+              {
+                "word": "Banheiro",
+                "path": "https://i.imgur.com/EReUpB6.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Sala de aula",
+                "path": "https://i.imgur.com/4MC5i46.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Cachorro",
+                "path": "https://i.imgur.com/l9wolpc.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Biblioteca",
+            "answers": [
+              {
+                "word": "Desculpa",
+                "path": "https://i.imgur.com/v9pSYS8.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Biblioteca",
+                "path": "https://i.imgur.com/dcFCFpv.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Laboratório de informática",
+                "path": "https://i.imgur.com/pgr1uL8.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Intervalo",
+            "answers": [
+              {
+                "word": "Brincadeira",
+                "path": "https://i.imgur.com/tQzrnQZ.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Tchau",
+                "path": "https://i.imgur.com/nwh9SZ0.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Intervalo",
+                "path": "https://i.imgur.com/waTOzqI.gif",
+                "right_answer": true
+              }
+            ]
+          }
+        ]
       },
       {
         "difficulty": "hard",
@@ -399,6 +601,86 @@
               {
                 "word": "Curso presencial",
                 "path": "https://i.imgur.com/Sd5ykpF.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Universidade",
+            "answers": [
+              {
+                "word": "Escola",
+                "path": "https://i.imgur.com/l11KUOk.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Faculdade",
+                "path": "https://i.imgur.com/enRYqKI.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Universidade",
+                "path": "https://i.imgur.com/oXrZDFD.gif",
+                "right_answer": true
+              }
+            ]
+          },
+          {
+            "word": "Professor",
+            "answers": [
+              {
+                "word": "Aluno",
+                "path": "https://i.imgur.com/9KHCSnu.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Professora",
+                "path": "https://i.imgur.com/6CsQ9es.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Professor",
+                "path": "https://i.imgur.com/Rgl40SY.gif",
+                "right_answer": true
+              }
+            ]
+          },
+          {
+            "word": "Caderno",
+            "answers": [
+              {
+                "word": "Caderno",
+                "path": "https://i.imgur.com/09yMeUk.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Livro",
+                "path": "https://i.imgur.com/9vGqHkR.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Folha de papel",
+                "path": "https://i.imgur.com/xrFkoQ8.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Aprender",
+            "answers": [
+              {
+                "word": "Aprender",
+                "path": "https://i.imgur.com/3OyIhwX.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Estudar",
+                "path": "https://i.imgur.com/Cg7KzAj.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Ensinar",
+                "path": "https://i.imgur.com/6dRGSau.gif",
                 "right_answer": false
               }
             ]
