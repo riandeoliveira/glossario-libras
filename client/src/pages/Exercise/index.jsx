@@ -9,8 +9,17 @@ import {
 } from "../../contexts/QuestionContext";
 import { Button } from "react-bootstrap";
 import { QuestionResult } from "../../components/QuestionResult";
+import { useParams } from "react-router-dom";
+import courses from "../../data/courses.json";
+import right_answer from "../../assets/audios/right_answer.wav";
+import wrong_answer from "../../assets/audios/wrong_answer.wav";
 
-export const Exercise = ({ data }) => {
+export const Exercise = ({ questionData }) => {
+  const { course_name, unity_difficulty } = useParams();
+
+  const course = courses.filter(({ path }) => path === course_name)[0];
+  const unity = course.units.filter(({ path }) => path === unity_difficulty)[0];
+
   const {
     index,
     handlePercentage,
@@ -25,12 +34,20 @@ export const Exercise = ({ data }) => {
     if (answer) {
       acceptAnswer();
 
+      const audio = new Audio(right_answer);
+
+      audio.play();
+
       footerElement.current.classList.remove(styles.wrong_answer);
       footerElement.current.classList.add(styles.right_answer);
     }
 
     if (answer === false) {
       denyAnswer();
+
+      const audio = new Audio(wrong_answer);
+
+      audio.play();
 
       footerElement.current.classList.remove(styles.right_answer);
       footerElement.current.classList.add(styles.wrong_answer);
@@ -62,16 +79,18 @@ export const Exercise = ({ data }) => {
               <div className={styles.question_content}>
                 <p className={styles.question}>
                   Traduza a palavra:{" "}
-                  <span id="questionExercise" className={styles.word}>{data[index].word}</span>
+                  <span id="questionExercise" className={styles.word}>
+                    {unity.questions[index].word}
+                  </span>
                 </p>
               </div>
             </div>
             <div className={styles.gifs_container}>
               <div className={styles.gifs}>
-                {data[index].answers.map(({ gif_path, right_answer }) => (
+                {unity.questions[index].answers.map((answer) => (
                   <GifCard
-                    gif={gif_path}
-                    onClick={() => onAlternativeSelected(right_answer)}
+                    gif={answer.path}
+                    onClick={() => onAlternativeSelected(answer.right_answer)}
                   />
                 ))}
               </div>

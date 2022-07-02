@@ -1,7 +1,7 @@
 import styles from "./styles.module.scss";
 import { FaGraduationCap, menuIcons } from "../../assets";
 import { NavDropdown } from "react-bootstrap";
-import items from "./items.json";
+import courses from "../../data/courses.json";
 import { DropdownMenuItem } from "../DropdownMenuItem";
 
 // Menu vertical da opção Cursos no cabeçalho
@@ -16,9 +16,9 @@ export const DropdownMenu = () => {
   return (
     <div className={styles.menu_item}>
       <NavDropdown title={menuTitle} className={styles.item_container}>
-        {items.map(({ item, path }, i) => (
+        {courses.map(({ name, path }, i) => (
           <DropdownMenuItem
-            name={item}
+            name={name}
             path={path}
             icon={menuIcons[i]}
             key={i}
