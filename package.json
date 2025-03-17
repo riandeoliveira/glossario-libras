@@ -1,0 +1,28 @@
+{
+  "name": "glossario-libras",
+  "version": "0.1.1",
+  "metadata": {
+    "stack": [
+      "bootstrap",
+      "js",
+      "react",
+      "sass",
+      "vite"
+    ],
+    "thumbnailUrl": "https://raw.githubusercontent.com/riandeoliveira/glossario-libras/refs/heads/main/.github/assets/thumbnail.png",
+    "repositoryUrl": "https://github.com/riandeoliveira/glossario-libras",
+    "projectUrl": "https://glossario-libras.vercel.app/aprender",
+    "isPrivate": false,
+    "isNew": false,
+    "info": {
+      "enUs": {
+        "fullName": "Glossário Libras",
+        "description": "A learning platform focused on teaching Brazilian Sign Language (Libras) to university students from various courses."
+      },
+      "ptBr": {
+        "fullName": "Glossário Libras",
+        "description": "Plataforma de aprendizado focada no ensino da Língua Brasileira de Sinais (Libras) para estudantes universitários de diversos cursos."
+      }
+    }
+  }
+}
