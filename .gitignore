@@ -1,5 +1,4 @@
 # Locais ignorados pelo Git
 
 /node_modules
-/package-lock.json
 /TODO.md
